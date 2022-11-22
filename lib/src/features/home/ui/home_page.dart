@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:trivia/src/theme/size_config.dart';
 
 import 'package:trivia/src/features/home/i18n/home_i18n.dart';
 import 'package:trivia/src/features/home/route/route_navigation.dart';
@@ -11,7 +12,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    SizeConfig().init(context);
 
     return ColoredBox(
       color: Theme.of(context).backgroundColor,
@@ -63,11 +64,11 @@ class HomePage extends StatelessWidget {
                     textAlign: TextAlign.center,
                   ),
                   SizedBox(
-                    height: size.height * .3,
+                    height: SizeConfig.screenHeight! * .3,
                   ),
                   Padding(
                     padding: EdgeInsets.symmetric(
-                      horizontal: size.width * .15,
+                      horizontal: SizeConfig.screenWidth! * .15,
                     ),
                     child: ElevatedButton(
                       onPressed: () => context.go(levelsNavigation),

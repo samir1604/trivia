@@ -1,0 +1,1262 @@
+[
+  {
+    "question": "1) Las células dendríticas inmaduras en la periferia migran a los órganos linfoides secundarios mientras maduran en",
+    "answers": [
+      {
+        "answer": "Horas",
+        "value": true
+      },
+      {
+        "answer": "minutos",
+        "value": false
+      },
+      {
+        "answer": "segundos",
+        "value": false
+      },
+      {
+        "answer": "días",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "2) Los antígenos timoindependientes activan a los linfocitos B vírgenes de tipo",
+    "answers": [
+      {
+        "answer": "B-1",
+        "value": true
+      },
+      {
+        "answer": "B-2",
+        "value": false
+      },
+      {
+        "answer": "B-3",
+        "value": false
+      },
+      {
+        "answer": "B-4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "3) Los antígenos timodependientes activan a los linfocitos B vírgenes de tipo",
+    "answers": [
+      {
+        "answer": "B-2",
+        "value": true
+      },
+      {
+        "answer": "B-1",
+        "value": false
+      },
+      {
+        "answer": "B-3",
+        "value": false
+      },
+      {
+        "answer": "B-4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "4) Requieren de la ayuda de los linfocitos T e inducen memoria inmune solamente los linfocitos",
+    "answers": [
+      {
+        "answer": "B-2",
+        "value": true
+      },
+      {
+        "answer": "B-1",
+        "value": false
+      },
+      {
+        "answer": "B-3",
+        "value": false
+      },
+      {
+        "answer": "B-4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "5) La interacción del TCR-péptidos/MPP-II constituye dentro de las señales activadoras",
+    "answers": [
+      {
+        "answer": "la primera",
+        "value": true
+      },
+      {
+        "answer": "la segunda",
+        "value": false
+      },
+      {
+        "answer": "la tercera",
+        "value": false
+      },
+      {
+        "answer": "la cuarta",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "6) La segunda señal de activación del linfocito TCD4 es aportada por",
+    "answers": [
+      {
+        "answer": "las  moléculas coestimuladoras",
+        "value": true
+      },
+      {
+        "answer": "las células coestimuladoras",
+        "value": false
+      },
+      {
+        "answer": "las moléculas estimuladoras",
+        "value": false
+      },
+      {
+        "answer": "las células estimuladoras",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "7) La tercera señal de activación del linfocito TCD4 es aportada por",
+    "answers": [
+      {
+        "answer": "las  citocinas",
+        "value": true
+      },
+      {
+        "answer": "las células coestimuladoras",
+        "value": false
+      },
+      {
+        "answer": "las interleucinas",
+        "value": false
+      },
+      {
+        "answer": "las células estimuladoras",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "8) La cuarta señal de activación del linfocitoTCD4 es",
+    "answers": [
+      {
+        "answer": "El retorno a casa",
+        "value": true
+      },
+      {
+        "answer": "el retorno arterial",
+        "value": false
+      },
+      {
+        "answer": "el retorno venoso",
+        "value": false
+      },
+      {
+        "answer": "el retorno linfático",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "9) Los efectores de la respuesta inmune adquirida TCD4 se diferencian a",
+    "answers": [
+      {
+        "answer": "Th1 Th2, Th17",
+        "value": true
+      },
+      {
+        "answer": "Th3,Th4,Th18",
+        "value": false
+      },
+      {
+        "answer": "Th1, Th7, Th19",
+        "value": false
+      },
+      {
+        "answer": "Th2, Th8, Th20",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "10) La IL2 solamente es producida por el linfocito",
+    "answers": [
+      {
+        "answer": "TCD4",
+        "value": true
+      },
+      {
+        "answer": "TCD8",
+        "value": false
+      },
+      {
+        "answer": "TCD10",
+        "value": false
+      },
+      {
+        "answer": "TCD12",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "11) El contacto íntimo y estable entre las células dendríticas y los TCD4 vírgenes en los órganos  linfoides secundarios  se denomina",
+    "answers": [
+      {
+        "answer": "Sinapsis inmunológica",
+        "value": true
+      },
+      {
+        "answer": "sintapsis inmunológica",
+        "value": false
+      },
+      {
+        "answer": "Sustancia inmunológica",
+        "value": false
+      },
+      {
+        "answer": "silepsis inmunológicas",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "12) La dinámica de la respuesta inmune es la ley que rige  el desarrollo de la respuesta y depende del",
+    "answers": [
+      {
+        "answer": "Patógeno",
+        "value": true
+      },
+      {
+        "answer": "anticuerpo",
+        "value": false
+      },
+      {
+        "answer": "receptor",
+        "value": false
+      },
+      {
+        "answer": "editor",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "13) La dinámica de la respuesta inmune es la ley que rige  el desarrollo de la respuesta y depende del",
+    "answers": [
+      {
+        "answer": "factor genético del hospedero",
+        "value": true
+      },
+      {
+        "answer": "factor genético del inmunogeno",
+        "value": false
+      },
+      {
+        "answer": "factor genético del editor",
+        "value": false
+      },
+      {
+        "answer": "factor genético del antígeno",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "14) La dinámica de la respuesta inmune es la ley que rige  el desarrollo de la respuesta y depende de",
+    "answers": [
+      {
+        "answer": "la puerta de entrada",
+        "value": true
+      },
+      {
+        "answer": "la puerta de salida",
+        "value": false
+      },
+      {
+        "answer": "la puerta primaria",
+        "value": false
+      },
+      {
+        "answer": "la puerta secundaria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "15) Los patógenos pueden agruparse en",
+    "answers": [
+      {
+        "answer": "intracelulares o extracelulares",
+        "value": true
+      },
+      {
+        "answer": "intrínseco o extrínseco",
+        "value": false
+      },
+      {
+        "answer": "exógenos o endógenos",
+        "value": false
+      },
+      {
+        "answer": "exoendogenos o endoexogenos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "16) La respuesta inmune adquirida protectora  frente a un patógeno intracelular es mediada por",
+    "answers": [
+      {
+        "answer": "citoliticos",
+        "value": true
+      },
+      {
+        "answer": "citociticos",
+        "value": false
+      },
+      {
+        "answer": "fitoliticos",
+        "value": false
+      },
+      {
+        "answer": "citofilicos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "17) La respuesta inmune adquirida protectora  frente a un patógeno extracelular es mediada por",
+    "answers": [
+      {
+        "answer": "anticuerpos",
+        "value": true
+      },
+      {
+        "answer": "antígenos",
+        "value": false
+      },
+      {
+        "answer": "anticuerdos",
+        "value": false
+      },
+      {
+        "answer": "antidenos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "18) La mucosa de la placenta en una gestante requiere de una atención diferenciada pues prevalecen las",
+    "answers": [
+      {
+        "answer": "NKU",
+        "value": true
+      },
+      {
+        "answer": "NK",
+        "value": false
+      },
+      {
+        "answer": "NKT",
+        "value": false
+      },
+      {
+        "answer": "NKB",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "19) Los mecanismos efectores innatos son mediados por",
+    "answers": [
+      {
+        "answer": "los IFN tipo1",
+        "value": true
+      },
+      {
+        "answer": "IFN tipo 2",
+        "value": false
+      },
+      {
+        "answer": "IFN tipo 3",
+        "value": false
+      },
+      {
+        "answer": "IFN tipo 4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "20) Los mecanismos efectores innatos son mediados por la inflamación aguda piógena de",
+    "answers": [
+      {
+        "answer": "los PMN",
+        "value": true
+      },
+      {
+        "answer": "los MPN",
+        "value": false
+      },
+      {
+        "answer": "los NMP",
+        "value": false
+      },
+      {
+        "answer": "los NPM",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "21)  El IFN alfa Y el IFN beta son capaces de",
+    "answers": [
+      {
+        "answer": "interferir con la replicación viral",
+        "value": true
+      },
+      {
+        "answer": "interferir con la replicación bacteriana",
+        "value": false
+      },
+      {
+        "answer": "interferir con la replicación helmíntica",
+        "value": false
+      },
+      {
+        "answer": "no interferir en la replicación",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "22) El IFN alfa Y el IFN beta son capaces de",
+    "answers": [
+      {
+        "answer": "estimular el proteosoma",
+        "value": true
+      },
+      {
+        "answer": "estimular el endosoma",
+        "value": false
+      },
+      {
+        "answer": "estimular el fagosoma",
+        "value": false
+      },
+      {
+        "answer": "estimular el linfosoma",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "23) El IFN alfa Y el IFN beta son capaces de",
+    "answers": [
+      {
+        "answer": "Activar las NK",
+        "value": true
+      },
+      {
+        "answer": "activar las NKU",
+        "value": false
+      },
+      {
+        "answer": "Activar las NKG",
+        "value": false
+      },
+      {
+        "answer": "Activar las NKB",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "24) Para la recirculación linfocitaria son esenciales las interacciones  entre las moléculas de",
+    "answers": [
+      {
+        "answer": "adhesión",
+        "value": true
+      },
+      {
+        "answer": "interacción",
+        "value": false
+      },
+      {
+        "answer": "estimulación",
+        "value": false
+      },
+      {
+        "answer": "degradación",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "25) EL complemento por cualquiera de sus vías de activación son",
+    "answers": [
+      {
+        "answer": "opsoninas y anafilotoxinas",
+        "value": true
+      },
+      {
+        "answer": "supriminas y opsoninas",
+        "value": false
+      },
+      {
+        "answer": "entriguinas y anafilotoxinas",
+        "value": false
+      },
+      {
+        "answer": "necróticas y apoptosicos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "26) El proceso de facilitación de la fagocitosis por los macrófagos y los neutrófilos se denomina",
+    "answers": [
+      {
+        "answer": "opsonofagocitosis",
+        "value": true
+      },
+      {
+        "answer": "opsonopinocitosis",
+        "value": false
+      },
+      {
+        "answer": "fagocitopsonina",
+        "value": false
+      },
+      {
+        "answer": "fagocitopnina",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "27) El mecanismo programado, no inflamatorio y común de muerte inmune se denomina",
+    "answers": [
+      {
+        "answer": "apoptosis",
+        "value": true
+      },
+      {
+        "answer": "necrosis",
+        "value": false
+      },
+      {
+        "answer": "fagocitosis",
+        "value": false
+      },
+      {
+        "answer": "pinocitosis",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "28) La muerte celular por trauma se denomina",
+    "answers": [
+      {
+        "answer": "necrosis",
+        "value": true
+      },
+      {
+        "answer": "apoptosis",
+        "value": false
+      },
+      {
+        "answer": "fagocitosis",
+        "value": false
+      },
+      {
+        "answer": "pinocitosis",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "29) Las NKU no atacan al trofoblasto al reconocer fundamentalmente a las moléculas",
+    "answers": [
+      {
+        "answer": "MPP-G",
+        "value": true
+      },
+      {
+        "answer": "MPP-l",
+        "value": false
+      },
+      {
+        "answer": "MPP-F",
+        "value": false
+      },
+      {
+        "answer": "MPP-T",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "30) Las células trofoblasticas no expresan",
+    "answers": [
+      {
+        "answer": "MPP I y MPPII clásicas",
+        "value": true
+      },
+      {
+        "answer": "MPPI y MPPII no clásicas",
+        "value": false
+      },
+      {
+        "answer": "MPPI y MPPII primarias",
+        "value": false
+      },
+      {
+        "answer": "MPPI y MPPII secundarias",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "31) En la sangre materna en el primer trimestre de la gestación  hay predominio de",
+    "answers": [
+      {
+        "answer": "Th1",
+        "value": true
+      },
+      {
+        "answer": "Th2",
+        "value": false
+      },
+      {
+        "answer": "Th 3",
+        "value": false
+      },
+      {
+        "answer": "Th4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "32) En la sangre materna en el segundo y tercer trimestre de la gestación  hay predominio de",
+    "answers": [
+      {
+        "answer": "Th2",
+        "value": true
+      },
+      {
+        "answer": "Th1",
+        "value": false
+      },
+      {
+        "answer": "Th3",
+        "value": false
+      },
+      {
+        "answer": "Th4",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "33) En la gestación el complemento actúa",
+    "answers": [
+      {
+        "answer": "poco",
+        "value": true
+      },
+      {
+        "answer": "mucho",
+        "value": false
+      },
+      {
+        "answer": "siempre",
+        "value": false
+      },
+      {
+        "answer": "primero",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "34) En el recién nacido no hay producción de",
+    "answers": [
+      {
+        "answer": "IgG e IgA",
+        "value": true
+      },
+      {
+        "answer": "IgM e IgA",
+        "value": false
+      },
+      {
+        "answer": "IgG e IgD",
+        "value": false
+      },
+      {
+        "answer": "IgM e IgE",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "35) En la Inmunosenescencia la proteína C reactiva",
+    "answers": [
+      {
+        "answer": "Se eleva",
+        "value": true
+      },
+      {
+        "answer": "Disminuye",
+        "value": false
+      },
+      {
+        "answer": "se pierde",
+        "value": false
+      },
+      {
+        "answer": "se desintegra",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "36) En la Inmunosenescencia la citocina inflamatoria",
+    "answers": [
+      {
+        "answer": "Se eleva",
+        "value": true
+      },
+      {
+        "answer": "Disminuye",
+        "value": false
+      },
+      {
+        "answer": "se pierde",
+        "value": false
+      },
+      {
+        "answer": "se desintegra",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "37) En la Inmunosenescencia la fuerza muscular",
+    "answers": [
+      {
+        "answer": "Disminuye",
+        "value": true
+      },
+      {
+        "answer": "Se eleva",
+        "value": false
+      },
+      {
+        "answer": "se aumenta",
+        "value": false
+      },
+      {
+        "answer": "se desintegra",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "38) En la inmunosenescencia existe una menor producción de linfocitos T por que el Timo",
+    "answers": [
+      {
+        "answer": "Involuciona",
+        "value": true
+      },
+      {
+        "answer": "invaliciona",
+        "value": false
+      },
+      {
+        "answer": "invalido",
+        "value": false
+      },
+      {
+        "answer": "aumenta",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "39) En la Inmunosenescencia ocurre la diferenciación y la clonación linfocitaria",
+    "answers": [
+      {
+        "answer": "Disminuye",
+        "value": true
+      },
+      {
+        "answer": "Se eleva",
+        "value": false
+      },
+      {
+        "answer": "se aumenta",
+        "value": false
+      },
+      {
+        "answer": "se desintegra",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "40) El proceso que limita la capacidad de división de las células somáticas se denomina",
+    "answers": [
+      {
+        "answer": "senescencia replicativa",
+        "value": true
+      },
+      {
+        "answer": "senescencia aplicativa",
+        "value": false
+      },
+      {
+        "answer": "senescencia explicativa",
+        "value": false
+      },
+      {
+        "answer": "senescencia duplicativa",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "41) En la Inmunosenescencia las estructuras terminales de los cromosomas que los protege se denominan",
+    "answers": [
+      {
+        "answer": "telomeros",
+        "value": true
+      },
+      {
+        "answer": "telorelos",
+        "value": false
+      },
+      {
+        "answer": "temoleros",
+        "value": false
+      },
+      {
+        "answer": "temelores",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "42) Durante el proceso de senescencia replicativa en cada división celular los telomeros",
+    "answers": [
+      {
+        "answer": "Se reducen",
+        "value": true
+      },
+      {
+        "answer": "se incrementan",
+        "value": false
+      },
+      {
+        "answer": "se quedan igual",
+        "value": false
+      },
+      {
+        "answer": "no se mueven",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "43) El déficit de Zn es denominado",
+    "answers": [
+      {
+        "answer": "linfopenia",
+        "value": true
+      },
+      {
+        "answer": "zincipenia",
+        "value": false
+      },
+      {
+        "answer": "cedipenia",
+        "value": false
+      },
+      {
+        "answer": "zinipenia",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "44) Es responsable de atrofia timica el déficit de",
+    "answers": [
+      {
+        "answer": "Zn",
+        "value": true
+      },
+      {
+        "answer": "Fe",
+        "value": false
+      },
+      {
+        "answer": "K",
+        "value": false
+      },
+      {
+        "answer": "O2",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "45) El leucograma con diferencial y la lámina periférica son alguno de las pruebas celulares que se utilizan para valorar la respuesta inmune",
+    "answers": [
+      {
+        "answer": "innata",
+        "value": true
+      },
+      {
+        "answer": "adquirida",
+        "value": false
+      },
+      {
+        "answer": "primaria",
+        "value": false
+      },
+      {
+        "answer": "secundaria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "46) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune innata es",
+    "answers": [
+      {
+        "answer": "lamina periférica",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "47) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune innata es",
+    "answers": [
+      {
+        "answer": "eritrosedimentación",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "48) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune innata es",
+    "answers": [
+      {
+        "answer": "leucograma con diferencial",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "49) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune innata es",
+    "answers": [
+      {
+        "answer": "inmunofenotipaje",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "50) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune adquirida es",
+    "answers": [
+      {
+        "answer": "lamina periférica",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "51) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune adquirida es",
+    "answers": [
+      {
+        "answer": "inmunofenotipaje",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "52) Alguna de las pruebas celulares que se utilizan para evaluar la respuesta inmune adquirida es",
+    "answers": [
+      {
+        "answer": "conteo de linfocitos",
+        "value": true
+      },
+      {
+        "answer": "TAC",
+        "value": false
+      },
+      {
+        "answer": "Coprocultivo",
+        "value": false
+      },
+      {
+        "answer": "urocultivo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "53) Alguna de las pruebas funcionales que evalúan la respuesta inmune innata es",
+    "answers": [
+      {
+        "answer": "la degranulación basofilica",
+        "value": true
+      },
+      {
+        "answer": "degranulación esofilica",
+        "value": false
+      },
+      {
+        "answer": "degranulación exofilica",
+        "value": false
+      },
+      {
+        "answer": "degranulación baxofilica",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "54) Alguna de las pruebas funcionales que evalúan la respuesta inmune adquirida es",
+    "answers": [
+      {
+        "answer": "la linfocitotoxicidad",
+        "value": true
+      },
+      {
+        "answer": "linfotoxidad",
+        "value": false
+      },
+      {
+        "answer": "linfoticidad",
+        "value": false
+      },
+      {
+        "answer": "linfotoxicidad",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "55) Los principales métodos inmunológicos para determinar la interacción antígeno-anticuerpo se basan en",
+    "answers": [
+      {
+        "answer": "aglutinación de partículas",
+        "value": true
+      },
+      {
+        "answer": "aglutinación de moléculas",
+        "value": false
+      },
+      {
+        "answer": "aglutinación de antígeno",
+        "value": false
+      },
+      {
+        "answer": "aglutinación de anticuerpo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "56) Los principales métodos inmunológicos para determinar la interacción antígeno-anticuerpo se basan en",
+    "answers": [
+      {
+        "answer": "la precipitación de inmunocomplejos",
+        "value": true
+      },
+      {
+        "answer": "precipitación linfocitaria",
+        "value": false
+      },
+      {
+        "answer": "precipitación leucocitaria",
+        "value": false
+      },
+      {
+        "answer": "precipitación macroficiaria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "57) Los principales métodos inmunológicos para determinar la interacción antígeno-anticuerpo se basan en",
+    "answers": [
+      {
+        "answer": "el marcaje enzimático",
+        "value": true
+      },
+      {
+        "answer": "el marcaje linfático",
+        "value": false
+      },
+      {
+        "answer": "el marcaje hormonal",
+        "value": false
+      },
+      {
+        "answer": "el marcaje neuronal",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "58) Son capaces de participa en la vigilancia antitumoral",
+    "answers": [
+      {
+        "answer": "CD plasmacitoides",
+        "value": true
+      },
+      {
+        "answer": "CD monocitoides",
+        "value": false
+      },
+      {
+        "answer": "CD parasitoides",
+        "value": false
+      },
+      {
+        "answer": "CD linfocitoides",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "59)   Algunas derivan del linaje mieloide",
+    "answers": [
+      {
+        "answer": "CD monocitoides",
+        "value": true
+      },
+      {
+        "answer": "CD parasitoides",
+        "value": false
+      },
+      {
+        "answer": "CD linfocitoides",
+        "value": false
+      },
+      {
+        "answer": "CD plasmacitoides",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "60)  Evitar la autorreactividad a lo propio es una de las funciones que garantiza",
+    "answers": [
+      {
+        "answer": "la ontogenia B y T",
+        "value": true
+      },
+      {
+        "answer": "La Ontogenia IgM e IgN",
+        "value": false
+      },
+      {
+        "answer": "la ontogenia del BCR y TCR",
+        "value": false
+      },
+      {
+        "answer": "la ontogenia humana",
+        "value": false
+      }
+    ]
+  }
+]

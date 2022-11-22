@@ -1,7 +1,7 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-
-import 'package:trivia/src/routing/app_route.dart';
+import 'package:trivia/src/routes/app_route.dart';
+import 'package:trivia/src/theme/app_style.dart';
 
 /// Main application class
 class App extends StatelessWidget {
@@ -18,14 +18,14 @@ class App extends StatelessWidget {
       title: 'Trivia',
       theme: FlexThemeData.light(
         colors: const FlexSchemeColor(
-          primary: Color(0xff4e0029),
-          primaryContainer: Color(0xffbda5b1),
-          secondary: Color(0xff00341a),
-          secondaryContainer: Color(0xff8dc1a8),
-          tertiary: Color(0xff124c2f),
-          tertiaryContainer: Color(0xffa4d9bf),
-          appBarColor: Color(0xff8dc1a8),
-          error: Color(0xffb00020),
+          primary: kLightPrimary,
+          primaryContainer: kLightPrimaryContainer,
+          secondary: kLightSecondary,
+          secondaryContainer: kLightSecondaryContainer,
+          tertiary: kLightTertiary,
+          tertiaryContainer: kLightTertiaryContainer,
+          appBarColor: kLightAppBarColor,
+          error: kLightError,
         ),
         surfaceMode: FlexSurfaceMode.highScaffoldLowSurface,
         blendLevel: 20,
@@ -40,14 +40,14 @@ class App extends StatelessWidget {
       ),
       darkTheme: FlexThemeData.dark(
         colors: const FlexSchemeColor(
-          primary: Color(0xff94667e),
-          primaryContainer: Color(0xff4e0029),
-          secondary: Color(0xff6b9882),
-          secondaryContainer: Color(0xff21614c),
-          tertiary: Color(0xff599b7b),
-          tertiaryContainer: Color(0xff1d5330),
-          appBarColor: Color(0xff21614c),
-          error: Color(0xffcf6679),
+          primary: kDarkPrimary,
+          primaryContainer: kDarkPrimaryContainer,
+          secondary: kDarkSecondary,
+          secondaryContainer: kDarkSecondaryContainer,
+          tertiary: kDarkTertiary,
+          tertiaryContainer: kDarkTertiaryContainer,
+          appBarColor: kDarkAppBarColor,
+          error: kDarkError,
         ),
         surfaceMode: FlexSurfaceMode.highScaffoldLowSurface,
         blendLevel: 15,

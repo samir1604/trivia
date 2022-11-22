@@ -1,0 +1,1262 @@
+[
+  {
+    "question": "1) El sistema inmune es el responsable de:",
+    "answers": [
+      {
+        "answer": "Mantener la homeostasia",
+        "value": true
+      },
+      {
+        "answer": "Proteger de sustancias químicas",
+        "value": false
+      },
+      {
+        "answer": "Proteger contra ITS",
+        "value": false
+      },
+      {
+        "answer": "Mantener al organismo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "2) El sistema inmune:",
+    "answers": [
+      {
+        "answer": "Repara y limpia tejidos",
+        "value": true
+      },
+      {
+        "answer": "Repara y limpia los huesos",
+        "value": false
+      },
+      {
+        "answer": "Repara y limpia los órganos",
+        "value": false
+      },
+      {
+        "answer": "Repara y limpia las células",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "3) El sistema inmune:",
+    "answers": [
+      {
+        "answer": "Elimina moléculas nocivas",
+        "value": true
+      },
+      {
+        "answer": "Elimina las drogas",
+        "value": false
+      },
+      {
+        "answer": "Elimina los tóxicos",
+        "value": false
+      },
+      {
+        "answer": "Elimina los metales",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "4) El sistema inmune:",
+    "answers": [
+      {
+        "answer": "Evita el crecimiento de células neoplasicas",
+        "value": true
+      },
+      {
+        "answer": "Evita el crecimiento embrionario",
+        "value": false
+      },
+      {
+        "answer": "Evita el  crecimiento  anatómico",
+        "value": false
+      },
+      {
+        "answer": "Evita el crecimiento histológico",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "5) El sistema inmune es la acción coordinada de :",
+    "answers": [
+      {
+        "answer": "Células, tejidos y órganos",
+        "value": true
+      },
+      {
+        "answer": "Pulmón, corazón y cerebro",
+        "value": false
+      },
+      {
+        "answer": "Linfonodos, órganos y ganglios  linfáticos",
+        "value": false
+      },
+      {
+        "answer": "Órganos linfático primarios ,secundarios y terciarios",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "6) Son moléculas reconocedoras de patrones en el sistema inmune innato:",
+    "answers": [
+      {
+        "answer": "Las PRR",
+        "value": true
+      },
+      {
+        "answer": "Las RPP",
+        "value": false
+      },
+      {
+        "answer": "Las RPR",
+        "value": false
+      },
+      {
+        "answer": "Las RRP",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "7) Son Células que pertenecen al sistema inmune innato:",
+    "answers": [
+      {
+        "answer": "Los macrófagos y los neutrófilos",
+        "value": true
+      },
+      {
+        "answer": "Las citoquinas y las interleuquinas",
+        "value": false
+      },
+      {
+        "answer": "citocinas y las interleucinas",
+        "value": false
+      },
+      {
+        "answer": "Los macrolidos y los neutrolidos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "8) Una de las moléculas que pertenece al sistema inmune adquirido es:",
+    "answers": [
+      {
+        "answer": "El BCR",
+        "value": true
+      },
+      {
+        "answer": "El VCR",
+        "value": false
+      },
+      {
+        "answer": "El PCR",
+        "value": false
+      },
+      {
+        "answer": "El CDR",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "9) Una de las  moléculas que pertenece al sistema inmune adquirido es:",
+    "answers": [
+      {
+        "answer": "El TCR",
+        "value": true
+      },
+      {
+        "answer": "El DCR",
+        "value": false
+      },
+      {
+        "answer": "El FCR",
+        "value": false
+      },
+      {
+        "answer": "El RCT",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "10) Son moléculas que pertenecen al sistema inmune innato:",
+    "answers": [
+      {
+        "answer": "Las MPP",
+        "value": true
+      },
+      {
+        "answer": "Las PMP",
+        "value": false
+      },
+      {
+        "answer": "Las PMM",
+        "value": false
+      },
+      {
+        "answer": "Las PPM",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "11) Son moléculas que constituyen un puente entre  el sistema inmune innato y el adquirido las:",
+    "answers": [
+      {
+        "answer": "Las MPP",
+        "value": true
+      },
+      {
+        "answer": "Las PMP",
+        "value": false
+      },
+      {
+        "answer": "Las PMM",
+        "value": false
+      },
+      {
+        "answer": "Las PPM",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "12) Las moléculas presentadoras de péptidos se clasifican en:",
+    "answers": [
+      {
+        "answer": "I y II",
+        "value": true
+      },
+      {
+        "answer": "III y IV",
+        "value": false
+      },
+      {
+        "answer": "V y VI",
+        "value": false
+      },
+      {
+        "answer": "VII y VIII",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "13) En la acción del sistema inmunológico juega un papel importante  el tejido:",
+    "answers": [
+      {
+        "answer": "Linfático",
+        "value": true
+      },
+      {
+        "answer": "cardiovascular",
+        "value": false
+      },
+      {
+        "answer": "estratificado",
+        "value": false
+      },
+      {
+        "answer": "respiratorio",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "14) La medula ósea es un órgano:",
+    "answers": [
+      {
+        "answer": "primario",
+        "value": true
+      },
+      {
+        "answer": "secundario",
+        "value": false
+      },
+      {
+        "answer": "terciario",
+        "value": false
+      },
+      {
+        "answer": "cuaternario",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "15) El timo  es un órgano:",
+    "answers": [
+      {
+        "answer": "primario",
+        "value": true
+      },
+      {
+        "answer": "secundario",
+        "value": false
+      },
+      {
+        "answer": "terciario",
+        "value": false
+      },
+      {
+        "answer": "cuaternario",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "16) Los órganos secundarios dentro de la organización estructural del sistema inmunológico son:",
+    "answers": [
+      {
+        "answer": "Anillo de Waldeyer",
+        "value": true
+      },
+      {
+        "answer": "Medula Ósea",
+        "value": false
+      },
+      {
+        "answer": "Corazón",
+        "value": false
+      },
+      {
+        "answer": "Pulmón",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "17) Los órganos secundarios son :",
+    "answers": [
+      {
+        "answer": "El escenario donde ocurre  la respuesta inmune",
+        "value": true
+      },
+      {
+        "answer": "El escenario donde se limita la respuesta inmune",
+        "value": false
+      },
+      {
+        "answer": "El escenario donde ocurre la maduración",
+        "value": false
+      },
+      {
+        "answer": "El escenario donde ocurre la desinfección de la respuesta  inmune",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "18) La respuesta inmunológica más rápida es:",
+    "answers": [
+      {
+        "answer": "la Innata",
+        "value": true
+      },
+      {
+        "answer": "la adaptativa",
+        "value": false
+      },
+      {
+        "answer": "la adquirida",
+        "value": false
+      },
+      {
+        "answer": "la verbal",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "19) La diversidad de  respuesta inmune  adquirida es :",
+    "answers": [
+      {
+        "answer": "Muy diversa",
+        "value": true
+      },
+      {
+        "answer": "poco diversa",
+        "value": false
+      },
+      {
+        "answer": "medianamente diversa",
+        "value": false
+      },
+      {
+        "answer": "no existe diversidad",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "20) Teniendo en cuenta los efectores  inducidos que predominan en  la respuesta inmune adquirida, esta se clasifica en :",
+    "answers": [
+      {
+        "answer": "Humoral o celular",
+        "value": true
+      },
+      {
+        "answer": "Primaria o secundaria",
+        "value": false
+      },
+      {
+        "answer": "activa o pasiva",
+        "value": false
+      },
+      {
+        "answer": "natural o artificial",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "21) Teniendo en cuenta los efectores  producidos por el sujeto en la respuesta inmune adquirida, esta se clasifica en :",
+    "answers": [
+      {
+        "answer": "activa o pasiva",
+        "value": true
+      },
+      {
+        "answer": "Humoral o celular",
+        "value": false
+      },
+      {
+        "answer": "Primaria o secundaria",
+        "value": false
+      },
+      {
+        "answer": "natural o artificial",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "22) Teniendo en cuenta el modo de contacto con el Inmunógeno en la respuesta inmune adquirida, esta se clasifica en :",
+    "answers": [
+      {
+        "answer": "natural o artificial",
+        "value": true
+      },
+      {
+        "answer": "activa o pasiva",
+        "value": false
+      },
+      {
+        "answer": "Humoral o celular",
+        "value": false
+      },
+      {
+        "answer": "Primaria o secundaria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "23) Teniendo en cuenta el numero de contacto con el Inmunógeno en la respuesta inmune adquirida, esta se clasifica en :",
+    "answers": [
+      {
+        "answer": "Primaria o secundaria",
+        "value": true
+      },
+      {
+        "answer": "natural o artificial",
+        "value": false
+      },
+      {
+        "answer": "activa o pasiva",
+        "value": false
+      },
+      {
+        "answer": "Humoral o celular",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "24) Una de las fases de la respuesta inmune es :",
+    "answers": [
+      {
+        "answer": "Fase de Reconocimiento",
+        "value": true
+      },
+      {
+        "answer": "Fase de llenado",
+        "value": false
+      },
+      {
+        "answer": "Fase de complejo",
+        "value": false
+      },
+      {
+        "answer": "Fase final",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "25) Una de las fases de la respuesta inmune es :",
+    "answers": [
+      {
+        "answer": "Fase de Activación",
+        "value": true
+      },
+      {
+        "answer": "Fase de despeje",
+        "value": false
+      },
+      {
+        "answer": "Fase de sosiego",
+        "value": false
+      },
+      {
+        "answer": "Fase final",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "26) Las fases de la respuesta inmune son :",
+    "answers": [
+      {
+        "answer": "Fase de Eliminación, contracción y memoria",
+        "value": true
+      },
+      {
+        "answer": "Fase de llenado, vaciado y rellenado",
+        "value": false
+      },
+      {
+        "answer": "Fase de Flujo y reflujo esofágico",
+        "value": false
+      },
+      {
+        "answer": "Fase menguante, creciente y nueva",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "27) Las moléculas MPP I son las responsables de presentar péptidos a los linfocitos:",
+    "answers": [
+      {
+        "answer": "TCD8",
+        "value": true
+      },
+      {
+        "answer": "TCD4",
+        "value": false
+      },
+      {
+        "answer": "TCD10",
+        "value": false
+      },
+      {
+        "answer": "TCD16",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "28) Las moléculas MPPII son las responsables de presentar péptidos  a los linfocitos:",
+    "answers": [
+      {
+        "answer": "TCD4",
+        "value": true
+      },
+      {
+        "answer": "TCD8",
+        "value": false
+      },
+      {
+        "answer": "TCD14",
+        "value": false
+      },
+      {
+        "answer": "TCD16",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "29) El  complejo receptor de linfocito T presenta una molécula accesoria:",
+    "answers": [
+      {
+        "answer": "CD3",
+        "value": true
+      },
+      {
+        "answer": "CD5",
+        "value": false
+      },
+      {
+        "answer": "CD8",
+        "value": false
+      },
+      {
+        "answer": "CD0",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "30) El complejo receptor de linfocito B es:",
+    "answers": [
+      {
+        "answer": "Una IgM Monomérica",
+        "value": true
+      },
+      {
+        "answer": "una IgG dimerica",
+        "value": false
+      },
+      {
+        "answer": "una IgA de Monomerica",
+        "value": false
+      },
+      {
+        "answer": "IgM pentamerica",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "31) El autoantigeno es:",
+    "answers": [
+      {
+        "answer": "un antígeno proveniente del mismo sujeto",
+        "value": true
+      },
+      {
+        "answer": "un antígeno proveniente de otro sujeto de la misma especie",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente de un sujeto de otra especie",
+        "value": false
+      },
+      {
+        "answer": "de un sujeto idéntico de  la misma especie",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "32) El Isoantígeno es:",
+    "answers": [
+      {
+        "answer": "Un antígeno proveniente de un sujeto idéntico de  la misma especie",
+        "value": true
+      },
+      {
+        "answer": "un antígeno proveniente del mismo sujeto",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente de otro sujeto de la misma especie",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente de un sujeto de otra especie",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "33) El Aloantígeno es:",
+    "answers": [
+      {
+        "answer": "un antígeno proveniente de otro sujeto de la misma especie",
+        "value": true
+      },
+      {
+        "answer": "Un antígeno proveniente de un sujeto idéntico de  la misma especie",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente del mismo sujeto",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente de un sujeto de otra especie",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "34) El Xenoantígeno es:",
+    "answers": [
+      {
+        "answer": "un antígeno proveniente de un sujeto de otra especie",
+        "value": true
+      },
+      {
+        "answer": "un antígeno proveniente de otro sujeto de la misma especie",
+        "value": false
+      },
+      {
+        "answer": "Un antígeno proveniente de un sujeto idéntico de  la misma especie",
+        "value": false
+      },
+      {
+        "answer": "un antígeno proveniente del mismo sujeto",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "35) El receptor de linfocitos B, es un anticuerpo de clase:",
+    "answers": [
+      {
+        "answer": "IgM",
+        "value": true
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      },
+      {
+        "answer": "IgA",
+        "value": false
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "36) Las células productora de anticuerpo son :",
+    "answers": [
+      {
+        "answer": "las células plasmáticas",
+        "value": true
+      },
+      {
+        "answer": "macrófagos",
+        "value": false
+      },
+      {
+        "answer": "neutrófilos",
+        "value": false
+      },
+      {
+        "answer": "Mitocondrias",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "37)  En el humano se producen 5 clases de anticuerpo un ejemplo de ellos es:",
+    "answers": [
+      {
+        "answer": "IgG",
+        "value": true
+      },
+      {
+        "answer": "IgB",
+        "value": false
+      },
+      {
+        "answer": "IgC",
+        "value": false
+      },
+      {
+        "answer": "IgF",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "38) En el humano se producen 5 clases de anticuerpo un ejemplo de ellos es:",
+    "answers": [
+      {
+        "answer": "IgA",
+        "value": true
+      },
+      {
+        "answer": "IgV",
+        "value": false
+      },
+      {
+        "answer": "IgH",
+        "value": false
+      },
+      {
+        "answer": "IgQ",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "39) En el humano se producen 5 clases de anticuerpo un ejemplo de ellos es:",
+    "answers": [
+      {
+        "answer": "IgM",
+        "value": true
+      },
+      {
+        "answer": "IgB",
+        "value": false
+      },
+      {
+        "answer": "IgT",
+        "value": false
+      },
+      {
+        "answer": "IgP",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "40) En el humano se producen 5 clases de anticuerpo un ejemplo de ellos es:",
+    "answers": [
+      {
+        "answer": "IgD",
+        "value": true
+      },
+      {
+        "answer": "IgR",
+        "value": false
+      },
+      {
+        "answer": "IgO",
+        "value": false
+      },
+      {
+        "answer": "IgJ",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "41) En el humano se producen 5 clases de anticuerpo un ejemplo de ellos es:",
+    "answers": [
+      {
+        "answer": "IgE",
+        "value": true
+      },
+      {
+        "answer": "IgL",
+        "value": false
+      },
+      {
+        "answer": "IgK",
+        "value": false
+      },
+      {
+        "answer": "IgN",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "42) En el humano se producen 5 clases de anticuerpo ellos se clasifican en:",
+    "answers": [
+      {
+        "answer": "IgG, IgA, IgM,IgD,IgE",
+        "value": true
+      },
+      {
+        "answer": "IgG ,IgA, IgN, IgD, IgE",
+        "value": false
+      },
+      {
+        "answer": "IgG, IgU, IgM, IgD; IgE",
+        "value": false
+      },
+      {
+        "answer": "IgJ, IgA, IgM,IgD,IgE",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "43) La inmunoglobulina de menor peso molecular es",
+    "answers": [
+      {
+        "answer": "IgG",
+        "value": true
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      },
+      {
+        "answer": "IgA",
+        "value": false
+      },
+      {
+        "answer": "IgM",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "44) La inmunoglobulina de mayor peso molecular es",
+    "answers": [
+      {
+        "answer": "IgM",
+        "value": true
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      },
+      {
+        "answer": "IgD",
+        "value": false
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "45) La inmunoglobulina capaz de atravesar la barrera placentaria es",
+    "answers": [
+      {
+        "answer": "IgG",
+        "value": true
+      },
+      {
+        "answer": "IgM",
+        "value": false
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      },
+      {
+        "answer": "IgA",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "46) La inmunoglobulina que atraviesa el epitelio glandular mamario es :",
+    "answers": [
+      {
+        "answer": "IgA",
+        "value": true
+      },
+      {
+        "answer": "IgM",
+        "value": false
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      },
+      {
+        "answer": "IgD",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "47) La inmunoglobulina responsable de desencadenar los procesos alérgicos es: :",
+    "answers": [
+      {
+        "answer": "IgE",
+        "value": true
+      },
+      {
+        "answer": "IgM",
+        "value": false
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      },
+      {
+        "answer": "IgD",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "48) La inmunoglobulina que es parte del receptor de linfocitos B es",
+    "answers": [
+      {
+        "answer": "IgD",
+        "value": true
+      },
+      {
+        "answer": "IgA",
+        "value": false
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "49) La inmunoglobulina capas de activar el sistema del complemento es",
+    "answers": [
+      {
+        "answer": "IgM",
+        "value": true
+      },
+      {
+        "answer": "IgF",
+        "value": false
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      },
+      {
+        "answer": "IgD",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "50) Presentan a la vez subclases de anticuerpos las inmunoglobulinas de clase",
+    "answers": [
+      {
+        "answer": "la IgG y la IgA",
+        "value": true
+      },
+      {
+        "answer": "la IgM y la IgA",
+        "value": false
+      },
+      {
+        "answer": "la IgG y la IgD",
+        "value": false
+      },
+      {
+        "answer": "la IgE y la IgD",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "51)  La principal célula que participa en la fagocitosis es:",
+    "answers": [
+      {
+        "answer": "Macrófagos",
+        "value": true
+      },
+      {
+        "answer": "eosinófilos",
+        "value": false
+      },
+      {
+        "answer": "basófilos",
+        "value": false
+      },
+      {
+        "answer": "Granulófilos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "52) Las presentadoras de antígenos profesionales son las",
+    "answers": [
+      {
+        "answer": "las células dendríticas",
+        "value": true
+      },
+      {
+        "answer": "las células pendritricas",
+        "value": false
+      },
+      {
+        "answer": "las células mendritricas",
+        "value": false
+      },
+      {
+        "answer": "las células bendritricas",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "53) Los leucocitos que predominan en la sangre son los",
+    "answers": [
+      {
+        "answer": "Neutrófilos",
+        "value": true
+      },
+      {
+        "answer": "macrófagos",
+        "value": false
+      },
+      {
+        "answer": "eosinófilos",
+        "value": false
+      },
+      {
+        "answer": "basófilos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "54) Los responsables del proceso  inflamatorios como respuesta a una agresión son",
+    "answers": [
+      {
+        "answer": "los Neutrófilos",
+        "value": true
+      },
+      {
+        "answer": "los macrófagos",
+        "value": false
+      },
+      {
+        "answer": "los eosinófilos",
+        "value": false
+      },
+      {
+        "answer": "los basófilos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "55)  El pus es consecuencia de la activación, fagocitosis y muerte de",
+    "answers": [
+      {
+        "answer": "los Neutrófilos",
+        "value": true
+      },
+      {
+        "answer": "los macrófagos",
+        "value": false
+      },
+      {
+        "answer": "los eosinófilos",
+        "value": false
+      },
+      {
+        "answer": "los basófilos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "56) Dentro del sistema inmune innato las células asesinas naturales  por excelencia son",
+    "answers": [
+      {
+        "answer": "NK",
+        "value": true
+      },
+      {
+        "answer": "NKT",
+        "value": false
+      },
+      {
+        "answer": "NKU",
+        "value": false
+      },
+      {
+        "answer": "NKG",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "57) Los macrófagos son fagocitos histicos de duración",
+    "answers": [
+      {
+        "answer": "larga",
+        "value": true
+      },
+      {
+        "answer": "corta",
+        "value": false
+      },
+      {
+        "answer": "mediana",
+        "value": false
+      },
+      {
+        "answer": "ninguna",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "58) La inflamación como respuesta inmune de defensa tiene como signos clínicos",
+    "answers": [
+      {
+        "answer": "el rubor, calor, dolor e impotencia funcional",
+        "value": true
+      },
+      {
+        "answer": "la cianosis, frialdad, palidez",
+        "value": false
+      },
+      {
+        "answer": "el rubor, frialdad e impotencia funcional",
+        "value": false
+      },
+      {
+        "answer": "la palidez, dolor y no interviene el  funcionamiento",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "59) La inflamación aguda como respuesta inmunológica ocurre en",
+    "answers": [
+      {
+        "answer": "horas",
+        "value": true
+      },
+      {
+        "answer": "semanas",
+        "value": false
+      },
+      {
+        "answer": "días",
+        "value": false
+      },
+      {
+        "answer": "meses",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "60) La inflamación crónica como respuesta inmunológica ocurre en",
+    "answers": [
+      {
+        "answer": "Días",
+        "value": true
+      },
+      {
+        "answer": "horas",
+        "value": false
+      },
+      {
+        "answer": "segundos",
+        "value": false
+      },
+      {
+        "answer": "minutos",
+        "value": false
+      }
+    ]
+  }
+]

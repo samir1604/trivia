@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trivia/src/theme/size_config.dart';
 
 /// Button for levels
 class LevelButton extends StatelessWidget {
@@ -13,12 +14,12 @@ class LevelButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+    SizeConfig().init(context);
 
     return Container(
       constraints: BoxConstraints(
         maxHeight: 120,
-        maxWidth: size.width * .75,
+        maxWidth: SizeConfig.screenWidth! * .75,
       ),
       child: LayoutBuilder(
         builder: (context, constraints) => Stack(
@@ -38,7 +39,7 @@ class LevelButton extends StatelessWidget {
                   child: Text(
                     title,
                     style: Theme.of(context).textTheme.button?.copyWith(
-                      fontSize: 35,
+                      fontSize: SizeConfig.blockSizeHorizontal! * 9,
                     ),
                   ),
                 ),

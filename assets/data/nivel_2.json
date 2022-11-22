@@ -1,0 +1,1262 @@
+[
+  {
+    "question": "1) Los linfocitos Tab  pertenecen a la respuesta inmune",
+    "answers": [
+      {
+        "answer": "adquirida",
+        "value": true
+      },
+      {
+        "answer": "innata",
+        "value": false
+      },
+      {
+        "answer": "gestacional",
+        "value": false
+      },
+      {
+        "answer": "autoinmune",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "2) La maduración timica es el proceso que sufren las células al arribar al",
+    "answers": [
+      {
+        "answer": "Timo",
+        "value": true
+      },
+      {
+        "answer": "Medula ósea",
+        "value": false
+      },
+      {
+        "answer": "Linfonodo",
+        "value": false
+      },
+      {
+        "answer": "Linfocito",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "3) Los superantígenos  activan diversos clones de linfocitos",
+    "answers": [
+      {
+        "answer": "T",
+        "value": true
+      },
+      {
+        "answer": "B",
+        "value": false
+      },
+      {
+        "answer": "M",
+        "value": false
+      },
+      {
+        "answer": "C",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "4) El repertorio anticipado de los TCR y Los BCR ocurre cuando los antígenos están",
+    "answers": [
+      {
+        "answer": "ausentes",
+        "value": true
+      },
+      {
+        "answer": "presentes",
+        "value": false
+      },
+      {
+        "answer": "llegando",
+        "value": false
+      },
+      {
+        "answer": "tardando",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "5) La  recombinación somática es el ensamblaje de segmentos genéticos para crea",
+    "answers": [
+      {
+        "answer": "un gen funcional continuo",
+        "value": true
+      },
+      {
+        "answer": "un gen funcional discontinuo",
+        "value": false
+      },
+      {
+        "answer": "un gen no funcional continuo",
+        "value": false
+      },
+      {
+        "answer": "un gen  no funcional discontinuo",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "6) La hipermutación somática ocurre por cambios puntuales en las regiones variables de las cadenas",
+    "answers": [
+      {
+        "answer": "L y H",
+        "value": true
+      },
+      {
+        "answer": "M y N",
+        "value": false
+      },
+      {
+        "answer": "J y K",
+        "value": false
+      },
+      {
+        "answer": "R y T",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "7) Los cambios de clase que ocurren en los anticuerpos lo hacen solamente en su región",
+    "answers": [
+      {
+        "answer": "constante",
+        "value": true
+      },
+      {
+        "answer": "variable",
+        "value": false
+      },
+      {
+        "answer": "media",
+        "value": false
+      },
+      {
+        "answer": "flexible",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "8) La función de las MPP II es la presentación de péptidos",
+    "answers": [
+      {
+        "answer": "exógenos",
+        "value": true
+      },
+      {
+        "answer": "endógenos",
+        "value": false
+      },
+      {
+        "answer": "exodogenos",
+        "value": false
+      },
+      {
+        "answer": "endoxogenos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "9) La función de las MPP I es la presentación de péptidos",
+    "answers": [
+      {
+        "answer": "endógenos",
+        "value": true
+      },
+      {
+        "answer": "exógenos",
+        "value": false
+      },
+      {
+        "answer": "exodogenos",
+        "value": false
+      },
+      {
+        "answer": "endoxogenos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "10)  Los órganos Linfoides se clasifican en",
+    "answers": [
+      {
+        "answer": "primarios, secundarios y terciarios",
+        "value": true
+      },
+      {
+        "answer": "1ros, 2dos y 3ros",
+        "value": false
+      },
+      {
+        "answer": "delanteros, medios y posteriores",
+        "value": false
+      },
+      {
+        "answer": "primarios, secundarios y últimos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "11) En los órganos linfoides primarios es donde",
+    "answers": [
+      {
+        "answer": "se producen los linfocitos",
+        "value": true
+      },
+      {
+        "answer": "se orquesta la repuesta inmune",
+        "value": false
+      },
+      {
+        "answer": "se limita la respuesta inmune",
+        "value": false
+      },
+      {
+        "answer": "se paraliza la respuesta inmune",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "12) En los órganos linfoides secundarios es donde",
+    "answers": [
+      {
+        "answer": "se orquesta la repuesta inmune",
+        "value": true
+      },
+      {
+        "answer": "se producen los linfocitos",
+        "value": false
+      },
+      {
+        "answer": "se limita la respuesta inmune",
+        "value": false
+      },
+      {
+        "answer": "se paraliza la respuesta inmune",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "13) En los órganos linfoides terciarios es donde",
+    "answers": [
+      {
+        "answer": "se limita la respuesta inmune",
+        "value": true
+      },
+      {
+        "answer": "se producen los linfocitos",
+        "value": false
+      },
+      {
+        "answer": "se orquesta la repuesta inmune",
+        "value": false
+      },
+      {
+        "answer": "se paraliza la respuesta inmune",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "14) Los órganos linfoides primarios son",
+    "answers": [
+      {
+        "answer": "Timo y medula ósea",
+        "value": true
+      },
+      {
+        "answer": "Bazo y apéndices",
+        "value": false
+      },
+      {
+        "answer": "órganos neoformados",
+        "value": false
+      },
+      {
+        "answer": "pulmón y corazón",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "15) Los órganos linfoides secundarios son",
+    "answers": [
+      {
+        "answer": "Bazo y apéndices",
+        "value": true
+      },
+      {
+        "answer": "Timo y medula ósea",
+        "value": false
+      },
+      {
+        "answer": "órganos neoformados",
+        "value": false
+      },
+      {
+        "answer": "pulmón y corazón",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "16) Los órganos linfoides terciarios son",
+    "answers": [
+      {
+        "answer": "órganos neoformados",
+        "value": true
+      },
+      {
+        "answer": "Timo y medula ósea",
+        "value": false
+      },
+      {
+        "answer": "Bazo y apéndices",
+        "value": false
+      },
+      {
+        "answer": "pulmón y corazón",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "17) En el timo ocurre el proceso de restricción por",
+    "answers": [
+      {
+        "answer": "selección positiva",
+        "value": true
+      },
+      {
+        "answer": "selección negativa",
+        "value": false
+      },
+      {
+        "answer": "selección neutral",
+        "value": false
+      },
+      {
+        "answer": "no selección",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "18) En el timo ocurre el proceso de tolerizacion por",
+    "answers": [
+      {
+        "answer": "selección negativa",
+        "value": true
+      },
+      {
+        "answer": "selección positiva",
+        "value": false
+      },
+      {
+        "answer": "selección neutral",
+        "value": false
+      },
+      {
+        "answer": "no selección",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "19)  La orquestación de la respuesta inmune conlleva a que los linfocitos T y B se",
+    "answers": [
+      {
+        "answer": "proliferen y diferencien",
+        "value": true
+      },
+      {
+        "answer": "mueren y renacen",
+        "value": false
+      },
+      {
+        "answer": "circulen y recirculen",
+        "value": false
+      },
+      {
+        "answer": "restringen y tolericen",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "20) Las únicas células del organismo que recirculan sangre-tejido-linfa–sangre patrullando son",
+    "answers": [
+      {
+        "answer": "los linfocitos T y B",
+        "value": true
+      },
+      {
+        "answer": "las  células dendríticas",
+        "value": false
+      },
+      {
+        "answer": "los macrófagos",
+        "value": false
+      },
+      {
+        "answer": "los neutrófilos",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "21) El regreso a casa es una propiedad de los linfocitos",
+    "answers": [
+      {
+        "answer": "efectores y de memoria",
+        "value": true
+      },
+      {
+        "answer": "aglutinadores y de respuesta",
+        "value": false
+      },
+      {
+        "answer": "apoptosicos y necróticos",
+        "value": false
+      },
+      {
+        "answer": "generadores y orquestadores",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "22) Los estadios de maduración del linfocito B son",
+    "answers": [
+      {
+        "answer": "pro-B, pre-B e inmaduro",
+        "value": true
+      },
+      {
+        "answer": "efector, receptor y memoria",
+        "value": false
+      },
+      {
+        "answer": "inmaduro, intermedio y maduro",
+        "value": false
+      },
+      {
+        "answer": "generador, orquestador e inmaduro",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "23) La edición del receptor es una capacidad de rearreglo que tienen solamente",
+    "answers": [
+      {
+        "answer": "los linfocitos B inmaduros",
+        "value": true
+      },
+      {
+        "answer": "los linfocitos T inmaduros",
+        "value": false
+      },
+      {
+        "answer": "los linfocitos T y B inmaduros",
+        "value": false
+      },
+      {
+        "answer": "los linfocitos T y B maduros",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "24) La edición del receptor es la capacidad que tiene el linfocito B de",
+    "answers": [
+      {
+        "answer": "rearreglar su BCR",
+        "value": true
+      },
+      {
+        "answer": "rearreglar su TCR",
+        "value": false
+      },
+      {
+        "answer": "rearreglar al linfocito B",
+        "value": false
+      },
+      {
+        "answer": "rearreglar el linfocito T",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "25) Los linfocitos B se subdividen en",
+    "answers": [
+      {
+        "answer": "B-2 y B-1",
+        "value": true
+      },
+      {
+        "answer": "B-1 y B-3",
+        "value": false
+      },
+      {
+        "answer": "B-2 y B-4",
+        "value": false
+      },
+      {
+        "answer": "B-0 y B-1",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "26) En los linfocitos B predominan la",
+    "answers": [
+      {
+        "answer": "selección negativa central",
+        "value": true
+      },
+      {
+        "answer": "selección negativa periférica",
+        "value": false
+      },
+      {
+        "answer": "selección positiva periférica",
+        "value": false
+      },
+      {
+        "answer": "selección positiva central",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "27) Los linfocitos B no requieren de MPP para reconocer el antígeno pues utilizan como BCR a la",
+    "answers": [
+      {
+        "answer": "IgM",
+        "value": true
+      },
+      {
+        "answer": "IgE",
+        "value": false
+      },
+      {
+        "answer": "IgA",
+        "value": false
+      },
+      {
+        "answer": "IgG",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "28) En los linfocitos T predominan la",
+    "answers": [
+      {
+        "answer": "selección positiva periférica",
+        "value": true
+      },
+      {
+        "answer": "selección negativa central",
+        "value": false
+      },
+      {
+        "answer": "selección negativa periférica",
+        "value": false
+      },
+      {
+        "answer": "selección positiva central",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "29) Cuando el sistema inmunológico da una respuesta de no respuesta se denomina",
+    "answers": [
+      {
+        "answer": "Tolerancia inmunológica",
+        "value": true
+      },
+      {
+        "answer": "Activación inmunológica",
+        "value": false
+      },
+      {
+        "answer": "recepción inmunológica",
+        "value": false
+      },
+      {
+        "answer": "memoria inmunológica",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "30) La tolerancia inmunológica puede ocurrir a nivel",
+    "answers": [
+      {
+        "answer": "central o periférica",
+        "value": true
+      },
+      {
+        "answer": "primaria o secundaria",
+        "value": false
+      },
+      {
+        "answer": "positiva o negativa",
+        "value": false
+      },
+      {
+        "answer": "innata o adquirida",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "31) Según los mecanismos de producción la tolerancia inmune puede ser por",
+    "answers": [
+      {
+        "answer": "anergia",
+        "value": true
+      },
+      {
+        "answer": "sinergia",
+        "value": false
+      },
+      {
+        "answer": "asinergia",
+        "value": false
+      },
+      {
+        "answer": "energía",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "32) Según los mecanismos de producción la tolerancia inmune puede ser por",
+    "answers": [
+      {
+        "answer": "Ignorancia",
+        "value": true
+      },
+      {
+        "answer": "ignorante",
+        "value": false
+      },
+      {
+        "answer": "tolerancia",
+        "value": false
+      },
+      {
+        "answer": "tolerante",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "33) Según los mecanismos de producción la tolerancia inmune puede ser por",
+    "answers": [
+      {
+        "answer": "Edición del receptor",
+        "value": true
+      },
+      {
+        "answer": "edición del editor",
+        "value": false
+      },
+      {
+        "answer": "edición del autor",
+        "value": false
+      },
+      {
+        "answer": "edición del regulador",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "34) Según los mecanismos de producción la tolerancia inmune puede ser por",
+    "answers": [
+      {
+        "answer": "supresión",
+        "value": true
+      },
+      {
+        "answer": "restricción",
+        "value": false
+      },
+      {
+        "answer": "apoptosis",
+        "value": false
+      },
+      {
+        "answer": "necrosis",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "35) Según los mecanismos de producción la tolerancia inmune puede ser por",
+    "answers": [
+      {
+        "answer": "delección",
+        "value": true
+      },
+      {
+        "answer": "selección",
+        "value": false
+      },
+      {
+        "answer": "fundación",
+        "value": false
+      },
+      {
+        "answer": "restricción",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "36) El mecanismo de tolerancia inmunológica por el cual se eliminan las células tolerizadas del organismo se denomina",
+    "answers": [
+      {
+        "answer": "delección",
+        "value": true
+      },
+      {
+        "answer": "edición",
+        "value": false
+      },
+      {
+        "answer": "supresión",
+        "value": false
+      },
+      {
+        "answer": "anergia",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "37) El mecanismo de tolerancia inmunológica que silencia a los linfocitos T y B sin eliminarlos se denomina",
+    "answers": [
+      {
+        "answer": "Anergia",
+        "value": true
+      },
+      {
+        "answer": "delección",
+        "value": false
+      },
+      {
+        "answer": "edición",
+        "value": false
+      },
+      {
+        "answer": "supresión",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "38) El mecanismo de tolerancia inmunológica que permite el reordenamiento del receptor de linfocito B inmaduro se denomina",
+    "answers": [
+      {
+        "answer": "edición",
+        "value": true
+      },
+      {
+        "answer": "Anergia",
+        "value": false
+      },
+      {
+        "answer": "delección",
+        "value": false
+      },
+      {
+        "answer": "supresión",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "39)  El mecanismo de tolerancia inmunológica  donde los linfocitos y las CPA están en compartimentos diferentes se denomina",
+    "answers": [
+      {
+        "answer": "Ignorancia",
+        "value": true
+      },
+      {
+        "answer": "delección",
+        "value": false
+      },
+      {
+        "answer": "edición",
+        "value": false
+      },
+      {
+        "answer": "supresión",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "40) El mecanismo de tolerancia inmunológica mediado por células t reguladoras que secretan citocinas antiinflamatoria y supresora se denomina",
+    "answers": [
+      {
+        "answer": "supresión",
+        "value": true
+      },
+      {
+        "answer": "delección",
+        "value": false
+      },
+      {
+        "answer": "edición",
+        "value": false
+      },
+      {
+        "answer": "anergia",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "41) El principal tejido inmune del organismo es",
+    "answers": [
+      {
+        "answer": "la mucosa",
+        "value": true
+      },
+      {
+        "answer": "la piel",
+        "value": false
+      },
+      {
+        "answer": "la linfa",
+        "value": false
+      },
+      {
+        "answer": "el cartilaginoso",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "42) El organismo humano está constituido por microbiota en un",
+    "answers": [
+      {
+        "answer": "90%",
+        "value": true
+      },
+      {
+        "answer": "80%",
+        "value": false
+      },
+      {
+        "answer": "50%",
+        "value": false
+      },
+      {
+        "answer": "10%",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "43) Una de las vías de activación del complemento es",
+    "answers": [
+      {
+        "answer": "Clásicas",
+        "value": true
+      },
+      {
+        "answer": "normales",
+        "value": false
+      },
+      {
+        "answer": "primarias",
+        "value": false
+      },
+      {
+        "answer": "secundarias",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "44) Una de las vías  de activación del complemento  es",
+    "answers": [
+      {
+        "answer": "Lectinas",
+        "value": true
+      },
+      {
+        "answer": "letrinas",
+        "value": false
+      },
+      {
+        "answer": "lectivas",
+        "value": false
+      },
+      {
+        "answer": "pectinas",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "45) Una de las vías de activación del complemento es",
+    "answers": [
+      {
+        "answer": "Alternativas",
+        "value": true
+      },
+      {
+        "answer": "superficial",
+        "value": false
+      },
+      {
+        "answer": "profunda",
+        "value": false
+      },
+      {
+        "answer": "periférica",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "46) Cuando las citocinas actúan sobre la propia célula se clasifica como",
+    "answers": [
+      {
+        "answer": "autocrinas",
+        "value": true
+      },
+      {
+        "answer": "paracrinas",
+        "value": false
+      },
+      {
+        "answer": "Redundante",
+        "value": false
+      },
+      {
+        "answer": "inhibitoria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "47) Cuando las citocinas actúan sobre células vecinas se clasifican como",
+    "answers": [
+      {
+        "answer": "paracrinas",
+        "value": true
+      },
+      {
+        "answer": "autocrinas",
+        "value": false
+      },
+      {
+        "answer": "Redundante",
+        "value": false
+      },
+      {
+        "answer": "inhibitoria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "48) Cuando las citocinas actúan sobre varias células  se clasifican como",
+    "answers": [
+      {
+        "answer": "Pleitrópicas",
+        "value": true
+      },
+      {
+        "answer": "paracrinas",
+        "value": false
+      },
+      {
+        "answer": "Redundante",
+        "value": false
+      },
+      {
+        "answer": "inhibitoria",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "49) Cuando las citocinas actúan a distancia se clasifican como",
+    "answers": [
+      {
+        "answer": "endocrinas",
+        "value": true
+      },
+      {
+        "answer": "Pleitrópicas",
+        "value": false
+      },
+      {
+        "answer": "paracrinas",
+        "value": false
+      },
+      {
+        "answer": "Redundante",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "50) Cuando las citocinas actúan bloqueando se clasifican como",
+    "answers": [
+      {
+        "answer": "inhibitorias",
+        "value": true
+      },
+      {
+        "answer": "autocrinas",
+        "value": false
+      },
+      {
+        "answer": "paracrinas",
+        "value": false
+      },
+      {
+        "answer": "Redundante",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "51) Por sus funciones son proinflamatorias las citocinas",
+    "answers": [
+      {
+        "answer": "IL1, IL6 e IL8",
+        "value": true
+      },
+      {
+        "answer": "IL5,IL7 e IL9",
+        "value": false
+      },
+      {
+        "answer": "IL14,IL34 e IL36",
+        "value": false
+      },
+      {
+        "answer": "IL9,IL54e IL43",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "52) Tienen funciones como factor de crecimiento  las citocinas",
+    "answers": [
+      {
+        "answer": "IL7,IL3 e IL2",
+        "value": true
+      },
+      {
+        "answer": "IL5,IL6 e IL9",
+        "value": false
+      },
+      {
+        "answer": "IL4, Il5 e IL10",
+        "value": false
+      },
+      {
+        "answer": "IL11,IL5 e IL8",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "53) Tiene funciones como polarizadoras Th2",
+    "answers": [
+      {
+        "answer": "IL4 e IL5",
+        "value": true
+      },
+      {
+        "answer": "IL8 e IL9",
+        "value": false
+      },
+      {
+        "answer": "IL2 e IL3",
+        "value": false
+      },
+      {
+        "answer": "IL1 e IL2",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "54) Tiene funciones como polarizadoras Th1",
+    "answers": [
+      {
+        "answer": "IL12",
+        "value": true
+      },
+      {
+        "answer": "IL8",
+        "value": false
+      },
+      {
+        "answer": "IL2",
+        "value": false
+      },
+      {
+        "answer": "IL1",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "55) El sistema del complemento es un conjunto de proteínas séricas compuesta por",
+    "answers": [
+      {
+        "answer": "30 proteínas",
+        "value": true
+      },
+      {
+        "answer": "50 proteínas",
+        "value": false
+      },
+      {
+        "answer": "10 proteínas",
+        "value": false
+      },
+      {
+        "answer": "80 proteínas",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "56) En la vía clásica de activación del complemento el reconocimiento es a través de un",
+    "answers": [
+      {
+        "answer": "anticuerpo",
+        "value": true
+      },
+      {
+        "answer": "antígeno",
+        "value": false
+      },
+      {
+        "answer": "linfocitos B",
+        "value": false
+      },
+      {
+        "answer": "Linfocitos T",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "57) La vía que reconoce estructuras unidas a superficies solidas de cualquier célula es la vía",
+    "answers": [
+      {
+        "answer": "alternativa",
+        "value": true
+      },
+      {
+        "answer": "clásica",
+        "value": false
+      },
+      {
+        "answer": "Lectinas",
+        "value": false
+      },
+      {
+        "answer": "profundas",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "58) En la vía de las Lectinas de activación del complemento el reconocimiento es a través de un",
+    "answers": [
+      {
+        "answer": "Glúcido",
+        "value": true
+      },
+      {
+        "answer": "anticuerpo",
+        "value": false
+      },
+      {
+        "answer": "antígeno",
+        "value": false
+      },
+      {
+        "answer": "linfocitos B y T",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "59) La entrada de partículas sólidas relativamente grandes se denomina",
+    "answers": [
+      {
+        "answer": "Fagocitosis",
+        "value": true
+      },
+      {
+        "answer": "endocitosis",
+        "value": false
+      },
+      {
+        "answer": "pinocitosis",
+        "value": false
+      },
+      {
+        "answer": "linfocitosis",
+        "value": false
+      }
+    ]
+  },
+  {
+    "question": "60) La entrada de partículas solubles se denomina",
+    "answers": [
+      {
+        "answer": "pinocitosis",
+        "value": true
+      },
+      {
+        "answer": "Fagocitosis",
+        "value": false
+      },
+      {
+        "answer": "endocitosis",
+        "value": false
+      },
+      {
+        "answer": "linfocitosis",
+        "value": false
+      }
+    ]
+  }
+]
