@@ -39,4 +39,7 @@ class Answer extends Entity {
         'description': description,
         'isCorrect': isCorrect,
       };
+
+  @override
+  List<Object?> get props => [id, description, isCorrect];
 }

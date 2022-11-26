@@ -1,8 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:trivia/src/data/params/data_params.dart';
 import 'package:trivia/src/data/sources/local_consumer.dart';
 
-const testUri = 'assets/data/nivel_1.json';
-const badUri = 'assets/data/nivel.json';
+const rightUri = 'assets/data/nivel_1.json';
+const wrongUri = 'assets/data/nivel.json';
 
 void main() {
   late LocalConsumer sut;
@@ -12,10 +13,13 @@ void main() {
     sut = LocalConsumer();
   });
 
+  final goodUri = DataParams(rightUri);
+  final badUri = DataParams(wrongUri);
+
   group('Get level one data', () {
 
     test('test consumer success result', () async {
-      final result = await sut.consume(testUri);
+      final result = await sut.consume(goodUri);
       expect(result.data?.length, greaterThan(0));
     });
 

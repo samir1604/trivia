@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:trivia/src/domain/contracts/entity.dart';
 import 'package:trivia/src/domain/entities/answer.dart';
 
@@ -15,10 +16,15 @@ class Question extends Entity {
         id: id,
         description: json['question'] as String,
         answers: List<Answer>.from(
-          json['answers'].mapIndexed(
-            (int index, Map<String, dynamic> x) =>
-                Answer.fromJson(index + 1, x),
-          ) as List<Answer>,
+          (json['answers'] as List)
+              .mapIndexed<Answer>(
+                (index, e) => Answer(
+                  id: index + 1,
+                  description: (e as Map<String, dynamic>)['answer'] as String,
+                  isCorrect: e['value'] as bool,
+                ),
+              )
+              .toList(),
         ),
       );
 
@@ -39,9 +45,13 @@ class Question extends Entity {
         answers: answers ?? this.answers,
       );
 
+  /// Convert class to json value
   Map<String, dynamic> toJson() => {
         'id': id,
         'description': description,
         'answers': List<dynamic>.from(answers.map((x) => x.toJson())),
       };
+
+  @override
+  List<Object?> get props => [id, description];
 }
