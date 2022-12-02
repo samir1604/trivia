@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:trivia/src/theme/size_config.dart';
-
 import 'package:trivia/src/features/home/i18n/home_i18n.dart';
-import 'package:trivia/src/features/home/route/route_navigation.dart';
+import 'package:trivia/src/features/home/route/data_navigation.dart';
+import 'package:trivia/src/theme/size_config.dart';
 
 /// Application Home Page
 class HomePage extends StatelessWidget {

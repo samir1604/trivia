@@ -14,7 +14,7 @@ abstract class QuestionState with _$QuestionState {
   const factory QuestionState.loading() = _QuestionStateLoading;
 
   /// Received data state
-  const factory QuestionState.data({required List<Question> questionList}) =
+  const factory QuestionState.data({required Question question}) =
       _QuestionStateData;
 
   /// Error state
