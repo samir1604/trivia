@@ -80,4 +80,56 @@ final mockData = [
       ),
     ],
   ),
+  const Question(
+    id: 4,
+    description: '4) El sistema inmune:',
+    answers: [
+      Answer(
+        id: 1,
+        description: 'Evita el crecimiento de células neoplasicas',
+        isCorrect: true,
+      ),
+      Answer(
+        id: 1,
+        description: 'Evita el crecimiento embrionario',
+        isCorrect: false,
+      ),
+      Answer(
+        id: 1,
+        description: 'Evita el  crecimiento  anatómico',
+        isCorrect: false,
+      ),
+      Answer(
+        id: 1,
+        description: 'Evita el crecimiento histológico',
+        isCorrect: false,
+      ),
+    ],
+  ),
+  const Question(
+    id: 5,
+    description: '5) El sistema inmune es la acción coordinada de :',
+    answers: [
+      Answer(
+        id: 1,
+        description: 'Células, tejidos y órganos',
+        isCorrect: true,
+      ),
+      Answer(
+        id: 1,
+        description: 'Pulmón, corazón y cerebro',
+        isCorrect: false,
+      ),
+      Answer(
+        id: 1,
+        description: 'Linfonodos, órganos y ganglios  linfáticos',
+        isCorrect: false,
+      ),
+      Answer(
+        id: 1,
+        description: 'Órganos linfático primarios ,secundarios y terciarios',
+        isCorrect: false,
+      ),
+    ],
+  ),
 ];

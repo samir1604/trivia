@@ -13,20 +13,25 @@ class MockQuestionUseCase extends Mock implements GetQuestionList {}
 
 void main() {
   late MockQuestionUseCase mockUseCase;
-  late QuestionNotifier sut;
 
-  setUp(() {
+  setUpAll(() {
     mockUseCase = MockQuestionUseCase();
-    sut = QuestionNotifier(getQuestionList: mockUseCase);
   });
 
   void arrangeUseCareReturnMockData() {
     when(() => mockUseCase('')).thenAnswer(
-      (_) => Future.value(Right(mockData)),
+          (_) => Future.value(Right(mockData)),
     );
   }
 
   group('Question List Notifier Provider', () {
+    late QuestionNotifier sut;
+
+    setUp(() {
+      sut = QuestionNotifier(getQuestionList: mockUseCase);
+      arrangeUseCareReturnMockData();
+    });
+
     test('Initial Value is Correct', () {
       expect(sut.debugState, const QuestionState.initial());
     });
@@ -38,7 +43,6 @@ void main() {
     });
 
     test('Get Question List', () async {
-      arrangeUseCareReturnMockData();
 
       final future = sut.loadList('');
       expect(sut.debugState, const QuestionState.loading());
@@ -46,7 +50,7 @@ void main() {
       expect(sut.debugState, QuestionState.data(question: mockData[0]));
     });
 
-    test('Get Question List Fail', () async {
+    test('Fail when call get question list', () async {
       when(() => mockUseCase('')).thenAnswer(
         (_) => Future.value(const Left(Failure('There were errors'))),
       );
@@ -54,10 +58,25 @@ void main() {
       await sut.loadList('');
       expect(sut.debugState, const QuestionState.error('There were errors'));
     });
+  });
 
-    test('Get question list from real local source ', () async {
-      await sut.loadList('assets/data/nivel_1.json');
-      expect(sut.debugState, QuestionState.data(question: mockData[0]));
+  group('test notifier provider using custom choose algorithm', () {
+    late QuestionNotifier sut;
+
+    setUp(() {
+      sut = QuestionNotifier(
+        getQuestionList: mockUseCase,
+      );
+
+      arrangeUseCareReturnMockData();
+    });
+
+    test('test get question list with choose set', () async {
+
+      final future = sut.loadList('');
+      expect(sut.debugState, const QuestionState.loading());
+      await future;
+      expect(sut.debugState, isA<QuestionState>);
     });
   });
 }
