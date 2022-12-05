@@ -1,6 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
+import 'package:trivia/src/domain/entities/question.dart';
 
 import 'package:trivia/src/domain/exceptions/failure.dart';
 import 'package:trivia/src/domain/usecases/get_question_list.dart';
@@ -20,7 +21,7 @@ void main() {
 
   void arrangeUseCareReturnMockData() {
     when(() => mockUseCase('')).thenAnswer(
-          (_) => Future.value(Right(mockData)),
+      (_) => Future.value(Right(mockData)),
     );
   }
 
@@ -28,7 +29,8 @@ void main() {
     late QuestionNotifier sut;
 
     setUp(() {
-      sut = QuestionNotifier(getQuestionList: mockUseCase);
+      sut =
+          QuestionNotifier(getQuestionList: mockUseCase, maxQuestionLength: 3);
       arrangeUseCareReturnMockData();
     });
 
@@ -43,11 +45,36 @@ void main() {
     });
 
     test('Get Question List', () async {
-
       final future = sut.loadList('');
       expect(sut.debugState, const QuestionState.loading());
       await future;
-      expect(sut.debugState, QuestionState.data(question: mockData[0]));
+
+      // Arrange
+      Question? actual;
+      sut.debugState.mapOrNull(
+        data: (data) => actual = data.question.copyWith(),
+      );
+      final expected =
+          mockData.where((element) => element.id == actual?.id).first;
+
+      // Assert
+      expect(actual, expected);
+    });
+
+    test('Get next question in list', () async {
+      await sut.loadList('');
+      sut.getNext();
+
+      // Arrange
+      Question? actual;
+      sut.debugState.mapOrNull(
+        data: (data) => actual = data.question.copyWith(),
+      );
+      final expected =
+          mockData.where((element) => element.id == actual?.id).first;
+
+      // Assert
+      expect(actual, expected);
     });
 
     test('Fail when call get question list', () async {
@@ -57,26 +84,6 @@ void main() {
 
       await sut.loadList('');
       expect(sut.debugState, const QuestionState.error('There were errors'));
-    });
-  });
-
-  group('test notifier provider using custom choose algorithm', () {
-    late QuestionNotifier sut;
-
-    setUp(() {
-      sut = QuestionNotifier(
-        getQuestionList: mockUseCase,
-      );
-
-      arrangeUseCareReturnMockData();
-    });
-
-    test('test get question list with choose set', () async {
-
-      final future = sut.loadList('');
-      expect(sut.debugState, const QuestionState.loading());
-      await future;
-      expect(sut.debugState, isA<QuestionState>);
     });
   });
 }
