@@ -29,8 +29,8 @@ void main() {
     late QuestionNotifier sut;
 
     setUp(() {
-      sut =
-          QuestionNotifier(getQuestionList: mockUseCase, maxQuestionLength: 3);
+      sut = QuestionNotifier(
+          getQuestionListUseCase: mockUseCase, maxQuestionLength: 3);
       arrangeUseCareReturnMockData();
     });
 
@@ -52,7 +52,7 @@ void main() {
       // Arrange
       Question? actual;
       sut.debugState.mapOrNull(
-        data: (data) => actual = data.question.copyWith(),
+        data: (data) => actual = data.data.question.copyWith(),
       );
       final expected =
           mockData.where((element) => element.id == actual?.id).first;
@@ -68,7 +68,7 @@ void main() {
       // Arrange
       Question? actual;
       sut.debugState.mapOrNull(
-        data: (data) => actual = data.question.copyWith(),
+        data: (data) => actual = data.data.question.copyWith(),
       );
       final expected =
           mockData.where((element) => element.id == actual?.id).first;

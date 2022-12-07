@@ -20,7 +20,7 @@ mixin _$QuestionState {
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
     required TResult Function() loading,
-    required TResult Function(Question question) data,
+    required TResult Function(QuestionData data) data,
     required TResult Function(String? error) error,
   }) =>
       throw _privateConstructorUsedError;
@@ -28,7 +28,7 @@ mixin _$QuestionState {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
     TResult? Function()? loading,
-    TResult? Function(Question question)? data,
+    TResult? Function(QuestionData data)? data,
     TResult? Function(String? error)? error,
   }) =>
       throw _privateConstructorUsedError;
@@ -36,7 +36,7 @@ mixin _$QuestionState {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? initial,
     TResult Function()? loading,
-    TResult Function(Question question)? data,
+    TResult Function(QuestionData data)? data,
     TResult Function(String? error)? error,
     required TResult orElse(),
   }) =>
@@ -126,7 +126,7 @@ class _$_QuestionStateInitial implements _QuestionStateInitial {
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
     required TResult Function() loading,
-    required TResult Function(Question question) data,
+    required TResult Function(QuestionData data) data,
     required TResult Function(String? error) error,
   }) {
     return initial();
@@ -137,7 +137,7 @@ class _$_QuestionStateInitial implements _QuestionStateInitial {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
     TResult? Function()? loading,
-    TResult? Function(Question question)? data,
+    TResult? Function(QuestionData data)? data,
     TResult? Function(String? error)? error,
   }) {
     return initial?.call();
@@ -148,7 +148,7 @@ class _$_QuestionStateInitial implements _QuestionStateInitial {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? initial,
     TResult Function()? loading,
-    TResult Function(Question question)? data,
+    TResult Function(QuestionData data)? data,
     TResult Function(String? error)? error,
     required TResult orElse(),
   }) {
@@ -240,7 +240,7 @@ class _$_QuestionStateLoading implements _QuestionStateLoading {
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
     required TResult Function() loading,
-    required TResult Function(Question question) data,
+    required TResult Function(QuestionData data) data,
     required TResult Function(String? error) error,
   }) {
     return loading();
@@ -251,7 +251,7 @@ class _$_QuestionStateLoading implements _QuestionStateLoading {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
     TResult? Function()? loading,
-    TResult? Function(Question question)? data,
+    TResult? Function(QuestionData data)? data,
     TResult? Function(String? error)? error,
   }) {
     return loading?.call();
@@ -262,7 +262,7 @@ class _$_QuestionStateLoading implements _QuestionStateLoading {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? initial,
     TResult Function()? loading,
-    TResult Function(Question question)? data,
+    TResult Function(QuestionData data)? data,
     TResult Function(String? error)? error,
     required TResult orElse(),
   }) {
@@ -320,7 +320,9 @@ abstract class _$$_QuestionStateDataCopyWith<$Res> {
           $Res Function(_$_QuestionStateData) then) =
       __$$_QuestionStateDataCopyWithImpl<$Res>;
   @useResult
-  $Res call({Question question});
+  $Res call({QuestionData data});
+
+  $QuestionDataCopyWith<$Res> get data;
 }
 
 /// @nodoc
@@ -334,28 +336,36 @@ class __$$_QuestionStateDataCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? question = null,
+    Object? data = null,
   }) {
     return _then(_$_QuestionStateData(
-      question: null == question
-          ? _value.question
-          : question // ignore: cast_nullable_to_non_nullable
-              as Question,
+      data: null == data
+          ? _value.data
+          : data // ignore: cast_nullable_to_non_nullable
+              as QuestionData,
     ));
+  }
+
+  @override
+  @pragma('vm:prefer-inline')
+  $QuestionDataCopyWith<$Res> get data {
+    return $QuestionDataCopyWith<$Res>(_value.data, (value) {
+      return _then(_value.copyWith(data: value));
+    });
   }
 }
 
 /// @nodoc
 
 class _$_QuestionStateData implements _QuestionStateData {
-  const _$_QuestionStateData({required this.question});
+  const _$_QuestionStateData({required this.data});
 
   @override
-  final Question question;
+  final QuestionData data;
 
   @override
   String toString() {
-    return 'QuestionState.data(question: $question)';
+    return 'QuestionState.data(data: $data)';
   }
 
   @override
@@ -363,12 +373,11 @@ class _$_QuestionStateData implements _QuestionStateData {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_QuestionStateData &&
-            (identical(other.question, question) ||
-                other.question == question));
+            (identical(other.data, data) || other.data == data));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, question);
+  int get hashCode => Object.hash(runtimeType, data);
 
   @JsonKey(ignore: true)
   @override
@@ -382,10 +391,10 @@ class _$_QuestionStateData implements _QuestionStateData {
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
     required TResult Function() loading,
-    required TResult Function(Question question) data,
+    required TResult Function(QuestionData data) data,
     required TResult Function(String? error) error,
   }) {
-    return data(question);
+    return data(this.data);
   }
 
   @override
@@ -393,10 +402,10 @@ class _$_QuestionStateData implements _QuestionStateData {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
     TResult? Function()? loading,
-    TResult? Function(Question question)? data,
+    TResult? Function(QuestionData data)? data,
     TResult? Function(String? error)? error,
   }) {
-    return data?.call(question);
+    return data?.call(this.data);
   }
 
   @override
@@ -404,12 +413,12 @@ class _$_QuestionStateData implements _QuestionStateData {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? initial,
     TResult Function()? loading,
-    TResult Function(Question question)? data,
+    TResult Function(QuestionData data)? data,
     TResult Function(String? error)? error,
     required TResult orElse(),
   }) {
     if (data != null) {
-      return data(question);
+      return data(this.data);
     }
     return orElse();
   }
@@ -453,10 +462,10 @@ class _$_QuestionStateData implements _QuestionStateData {
 }
 
 abstract class _QuestionStateData implements QuestionState {
-  const factory _QuestionStateData({required final Question question}) =
+  const factory _QuestionStateData({required final QuestionData data}) =
       _$_QuestionStateData;
 
-  Question get question;
+  QuestionData get data;
   @JsonKey(ignore: true)
   _$$_QuestionStateDataCopyWith<_$_QuestionStateData> get copyWith =>
       throw _privateConstructorUsedError;
@@ -529,7 +538,7 @@ class _$_QuestionStateError implements _QuestionStateError {
   TResult when<TResult extends Object?>({
     required TResult Function() initial,
     required TResult Function() loading,
-    required TResult Function(Question question) data,
+    required TResult Function(QuestionData data) data,
     required TResult Function(String? error) error,
   }) {
     return error(this.error);
@@ -540,7 +549,7 @@ class _$_QuestionStateError implements _QuestionStateError {
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function()? initial,
     TResult? Function()? loading,
-    TResult? Function(Question question)? data,
+    TResult? Function(QuestionData data)? data,
     TResult? Function(String? error)? error,
   }) {
     return error?.call(this.error);
@@ -551,7 +560,7 @@ class _$_QuestionStateError implements _QuestionStateError {
   TResult maybeWhen<TResult extends Object?>({
     TResult Function()? initial,
     TResult Function()? loading,
-    TResult Function(Question question)? data,
+    TResult Function(QuestionData data)? data,
     TResult Function(String? error)? error,
     required TResult orElse(),
   }) {

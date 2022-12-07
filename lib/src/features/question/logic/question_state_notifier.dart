@@ -7,7 +7,7 @@ const int maxRecords = 20;
 class QuestionNotifier extends StateNotifier<QuestionState> {
   /// Constructor
   QuestionNotifier({
-    required this.getQuestionList,
+    required this.getQuestionListUseCase,
     int? maxQuestionLength,
   })  : _maxQuestionLength = maxQuestionLength ?? maxRecords,
         super(const QuestionState.initial());
@@ -16,22 +16,32 @@ class QuestionNotifier extends StateNotifier<QuestionState> {
   var _index = 0;
 
   /// Get Question List Use Case
-  final GetQuestionList getQuestionList;
+  final GetQuestionList getQuestionListUseCase;
 
   List<Question> _questionList = [];
 
+  void _updateQuestionState() {
+    state = QuestionState.data(
+      data: QuestionData.create(
+        _index,
+        _maxQuestionLength,
+        _questionList[_index],
+      ),
+    );
+    _index++;
+  }
+
   /// Get next question
   void getNext() {
-    if (_questionList.length < _index) {
-      state = QuestionState.data(question: _questionList[_index]);
-      _index++;
+    if (_index < _questionList.length) {
+      _updateQuestionState();
     }
   }
 
   /// Get list
   Future<void> loadList(String level) async {
     state = const QuestionState.loading();
-    final result = await getQuestionList(level);
+    final result = await getQuestionListUseCase(level);
 
     result.fold((fail) => state = QuestionState.error(fail.message),
         (questionList) {
@@ -41,8 +51,7 @@ class QuestionNotifier extends StateNotifier<QuestionState> {
           .map((e) => e.copyWith(answers: e.answers.getUnOrderList()))
           .toList();
 
-      state = QuestionState.data(question: _questionList[_index]);
-      _index++;
+      _updateQuestionState();
     });
   }
 }

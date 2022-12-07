@@ -1,5 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:trivia/src/domain/entities/question.dart';
+import 'package:trivia/src/features/question/dtos/question_data.dart';
 
 part 'question_state.freezed.dart';
 
@@ -14,7 +15,7 @@ abstract class QuestionState with _$QuestionState {
   const factory QuestionState.loading() = _QuestionStateLoading;
 
   /// Received data state
-  const factory QuestionState.data({required Question question}) =
+  const factory QuestionState.data({required QuestionData data}) =
       _QuestionStateData;
 
   /// Error state

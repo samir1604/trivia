@@ -33,3 +33,21 @@ const Color kDarkTertiaryContainer = Color(0xff1d5330);
 const Color kDarkAppBarColor = Color(0xff21614c);
 /// Dark Colors
 const Color kDarkError = Color(0xffcf6679);
+
+Map<int, Color> _colorCodes = {
+  50: const Color.fromRGBO(147, 205, 72, .1),
+  100: const Color.fromRGBO(147, 205, 72, .2),
+  200: const Color.fromRGBO(147, 205, 72, .3),
+  300: const Color.fromRGBO(147, 205, 72, .4),
+  400: const Color.fromRGBO(147, 205, 72, .5),
+  500: const Color.fromRGBO(147, 205, 72, .6),
+  600: const Color.fromRGBO(147, 205, 72, .7),
+  700: const Color.fromRGBO(147, 205, 72, .8),
+  800: const Color.fromRGBO(147, 205, 72, .9),
+  900: const Color.fromRGBO(147, 205, 72, 1),
+};
+
+/// Get material color
+MaterialColor colorShare(Color color) {
+  return MaterialColor(color.value, _colorCodes);
+}
