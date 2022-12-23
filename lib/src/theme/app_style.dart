@@ -1,53 +1,101 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
+/* Light theme */
+
 /// Light Colors
-const Color kLightPrimary = Color(0xff4e0029);
+const Color kLightPrimary = Color(0xff303f9f);
+
 /// Light Colors
-const Color kLightPrimaryContainer = Color(0xffbda5b1);
+const Color kLightPrimaryContainer = Color(0xffaeb9f4);
+
 /// Light Colors
-const Color kLightSecondary = Color(0xff00341a);
+const Color kLightSecondary = Color(0xff512da8);
+
 /// Light Colors
-const Color kLightSecondaryContainer = Color(0xff8dc1a8);
+const Color kLightSecondaryContainer = Color(0xffe9ddff);
+
 /// Light Colors
-const Color kLightTertiary = Color(0xff124c2f);
+const Color kLightTertiary = Color(0xff311b92);
+
 /// Light Colors
-const Color kLightTertiaryContainer = Color(0xffa4d9bf);
+const Color kLightTertiaryContainer = Color(0xffd1c5ff);
+
 /// Light Colors
-const Color kLightAppBarColor = Color(0xff8dc1a8);
+const Color kLightAppBarColor = Color(0xffe9ddff);
+
 /// Light Colors
 const Color kLightError = Color(0xffb00020);
 
+/* Dark theme */
+
 /// Dark Colors
-const Color kDarkPrimary = Color(0xff94667e);
+const Color kDarkPrimary = Color(0xff7986cb);
+
 /// Dark Colors
-const Color kDarkPrimaryContainer = Color(0xff4e0029);
+const Color kDarkPrimaryContainer = Color(0xff283593);
+
 /// Dark Colors
-const Color kDarkSecondary = Color(0xff6b9882);
+const Color kDarkSecondary = Color(0xff9575cd);
+
 /// Dark Colors
-const Color kDarkSecondaryContainer = Color(0xff21614c);
+const Color kDarkSecondaryContainer = Color(0xff502ca7);
+
 /// Dark Colors
-const Color kDarkTertiary = Color(0xff599b7b);
+const Color kDarkTertiary = Color(0xff7e57c2);
+
 /// Dark Colors
-const Color kDarkTertiaryContainer = Color(0xff1d5330);
+const Color kDarkTertiaryContainer = Color(0xff4433a4);
+
 /// Dark Colors
-const Color kDarkAppBarColor = Color(0xff21614c);
+const Color kDarkAppBarColor = Color(0xff502ca7);
+
 /// Dark Colors
 const Color kDarkError = Color(0xffcf6679);
 
-Map<int, Color> _colorCodes = {
-  50: const Color.fromRGBO(147, 205, 72, .1),
-  100: const Color.fromRGBO(147, 205, 72, .2),
-  200: const Color.fromRGBO(147, 205, 72, .3),
-  300: const Color.fromRGBO(147, 205, 72, .4),
-  400: const Color.fromRGBO(147, 205, 72, .5),
-  500: const Color.fromRGBO(147, 205, 72, .6),
-  600: const Color.fromRGBO(147, 205, 72, .7),
-  700: const Color.fromRGBO(147, 205, 72, .8),
-  800: const Color.fromRGBO(147, 205, 72, .9),
-  900: const Color.fromRGBO(147, 205, 72, 1),
-};
+/* Custom Colors */
+/// Background color
+const Color kBackgroundColor = Color(0xff323862);
+/// Primary Color
+const Color kPrimaryColor  = Color(0xff3e9fff);
+/// Box background color
+const Color kBoxBackgroundColor = Color(0xff383e6e);
+/// Box blue background color
+const Color kBlueBackgroundColor = Color(0xff3d9bf9);
 
 /// Get material color
-MaterialColor colorShare(Color color) {
-  return MaterialColor(color.value, _colorCodes);
+MaterialColor colorShade(Color color) {
+  return MaterialColor(color.value, {
+    50: _tintColor(color, 0.9),
+    100: _tintColor(color, 0.8),
+    200: _tintColor(color, 0.6),
+    300: _tintColor(color, 0.4),
+    400: _tintColor(color, 0.2),
+    500: color,
+    600: _shadeColor(color, 0.1),
+    700: _shadeColor(color, 0.2),
+    800: _shadeColor(color, 0.3),
+    900: _shadeColor(color, 0.4),
+  });
 }
+
+Color _tintColor(Color color, double factor) => Color.fromRGBO(
+      _tintValue(color.red, factor),
+      _tintValue(color.green, factor),
+      _tintValue(color.blue, factor),
+      1,
+    );
+
+int _tintValue(int value, double factor) =>
+    max(0, min((value + ((255 - value) * factor)).round(), 255));
+
+int _shadeValue(int value, double factor) =>
+    max(0, min(value - (value * factor).round(), 255));
+
+Color _shadeColor(Color color, double factor) => Color.fromRGBO(
+      _shadeValue(color.red, factor),
+      _shadeValue(color.green, factor),
+      _shadeValue(color.blue, factor),
+      1,
+    );

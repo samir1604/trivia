@@ -1,68 +1,82 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:trivia/src/features/Widgets/trivia_appbar.dart';
 import 'package:trivia/src/features/levels/route/data_navigation.dart';
 import 'package:trivia/src/features/levels/ui/widgets/level_button.dart';
+import 'package:trivia/src/theme/app_style.dart';
+import 'package:trivia/src/theme/size_config.dart';
 
 /// Levels Page
 class LevelsPage extends StatelessWidget {
   /// Level Page Constructors
-  const LevelsPage({super.key});
+  LevelsPage({super.key});
+
+  final _imageUrl = {
+    0: {'assets/images/level1.png'},
+    1: {'assets/images/level2.png'},
+    2: {'assets/images/level3.png'},
+    3: {'assets/images/level4.png'},
+  };
 
   @override
   Widget build(BuildContext context) {
-    return ColoredBox(
-      color: Theme.of(context).backgroundColor,
-      child: Scaffold(
-        backgroundColor: Colors.transparent,
-        body: Stack(
-          children: [
-            Positioned.fill(
-              child: Opacity(
-                opacity: 0.3,
-                child: Image.asset(
-                  'assets/images/background.jpg',
-                  fit: BoxFit.cover,
+    SizeConfig().init(context);
+
+    return Scaffold(
+      backgroundColor: kBackgroundColor,
+      appBar: getTriviaAppBar(
+        context,
+        title: 'Empecemos',
+        leading: const Icon(Icons.school_sharp),
+      ),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          child: Column(
+            children: [
+              const SizedBox(height: 10),
+              Text(
+                'Seleccione los niveles que se van habilitando',
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
+              SizedBox(height: SizeConfig.screenHeight! * .15),
+              Center(
+                child: GridView.builder(
+                  shrinkWrap: true,
+                  padding: const EdgeInsets.all(30),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                  ),
+                  itemCount: 4,
+                  itemBuilder: (_, index) {
+                    final title = 'Nivel ${index + 1}';
+                    final imagePath = _imageUrl[index]?.single;
+                    final level = levelsData[index];
+                    return Column(
+                      children: [
+                        if (index != 3)
+                          GestureDetector(
+                            onTap: () => context.go(
+                              questionNavigation,
+                              extra: level,
+                            ),
+                            child: LevelButton(
+                              title: title,
+                              imagePath: imagePath!,
+                            ),
+                          )
+                        else
+                          LevelButton(
+                            imagePath: imagePath!,
+                            isClickableButton: false,
+                          ),
+                      ],
+                    );
+                  },
                 ),
               ),
-            ),
-            Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  LevelButton(
-                    title: 'Nivel 1',
-                    image: Image.asset('assets/images/level1.png'),
-                    onTap: () => context.goNamed(
-                      questionNavigation,
-                      queryParams: levelOne,
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 25,
-                  ),
-                  LevelButton(
-                    title: 'Nivel 2',
-                    image: Image.asset('assets/images/level2.png'),
-                    onTap: () => context.goNamed(
-                      questionNavigation,
-                      queryParams: levelTwo,
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 25,
-                  ),
-                  LevelButton(
-                    title: 'Nivel 3',
-                    image: Image.asset('assets/images/level3.png'),
-                    onTap: () => context.goNamed(
-                      questionNavigation,
-                      queryParams: levelThree,
-                    ),
-                  ),
-                ],
-              ),
-            )
-          ],
+            ],
+          ),
         ),
       ),
     );
