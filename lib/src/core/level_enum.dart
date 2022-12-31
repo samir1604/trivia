@@ -19,7 +19,8 @@ class Level extends SmartEnum<int> {
   static const Level first = Level(
     1,
     leadingImage: 'assets/images/leading_image_1.png',
-    jsonData: 'assets/data/nivel_1.json',
+      jsonData: 'assets/data/mock_nivel_1.json'
+    //jsonData: 'assets/data/nivel_1.json',
   );
 
   /// Second level data

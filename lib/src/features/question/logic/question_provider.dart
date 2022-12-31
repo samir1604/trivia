@@ -15,6 +15,7 @@ part 'question_state_notifier.dart';
 final questionNotifierProvider =
     StateNotifierProvider.autoDispose<QuestionNotifier, QuestionState>(
   (ref) => QuestionNotifier(
+    maxQuestionLength: 3,
     getQuestionListUseCase: ref.read(_useCaseProvider),
   ),
 );

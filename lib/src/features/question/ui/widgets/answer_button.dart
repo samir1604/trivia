@@ -5,7 +5,7 @@ import 'package:trivia/src/features/question/logic/answer_provider.dart';
 import 'package:trivia/src/theme/app_style.dart';
 
 /// Custom Answer button
-class AnswerButton extends ConsumerWidget {
+class AnswerButton extends StatefulWidget {
   /// Constructor
   const AnswerButton({
     required this.letter,
@@ -20,73 +20,105 @@ class AnswerButton extends ConsumerWidget {
   final Answer answer;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final selected = ref.watch(answerStateProvider);
+  State<AnswerButton> createState() => _AnswerButtonState();
+}
 
-    return ElevatedButton(
-      style: ButtonStyle(
-        backgroundColor: MaterialStatePropertyAll<Color?>(
-          selected?.id == answer.id ? kDarkPrimaryContainer : null,
-        ),
-      ),
-      onPressed: () {
-        ref.read(answerStateProvider.notifier).state = answer;
-      },
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          if (selected?.id != answer.id)
-            DecoratedBox(
-              decoration: BoxDecoration(
-                color: kDarkPrimaryContainer,
-                borderRadius: BorderRadius.circular(50),
-                boxShadow: const <BoxShadow>[
-                  BoxShadow(blurRadius: 2, offset: Offset(1.2,1.2))
-                ],
-              ),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 5,
+class _AnswerButtonState extends State<AnswerButton>
+    with SingleTickerProviderStateMixin {
+  late AnimationController animationController;
+  late double scale;
+
+  @override
+  void initState() {
+    super.initState();
+    scale = 0;
+
+    animationController = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 300),
+      upperBound: .05,
+      reverseDuration: const Duration(milliseconds: 200),
+    )..addListener(() {
+        setState(() {});
+      });
+  }
+
+  @override
+  void dispose() {
+    animationController.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    scale = 1 + animationController.value;
+
+    return Transform.scale(
+      scale: scale,
+      child: Consumer(
+        builder: (context, ref, child) {
+          final selected = ref.watch(answerStateProvider);
+
+          if (selected?.id != widget.answer.id) {
+            animationController.reverse();
+          } else {
+            animationController.forward();
+          }
+
+          return ElevatedButton.icon(
+            icon: Container(
+              width: 20,
+              height: 20,
+              alignment: Alignment.center,
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [Color(0xfffd4d69), Color(0xffb66ef8)],
                 ),
-                child: Text(
-                  letter,
-                  style: Theme.of(context).textTheme.button,
-                ),
               ),
-            )
-          else
-            const SizedBox(width: 30),
-          const SizedBox(width: 20),
-          Expanded(
-            child: Text(
-              answer.description,
-              style: Theme.of(context).textTheme.button,
+              child: Text(
+                widget.letter.trim(),
+                style: Theme.of(context).textTheme.button,
+              ),
             ),
-          ),
-          if (selected?.id == answer.id)
-            DecoratedBox(
-              decoration: BoxDecoration(
-                color: kDarkPrimary,
-                borderRadius: BorderRadius.circular(50),
-                border: Border.all(
-                  color: colorShade(kDarkPrimaryContainer)[400]!,
-                  width: 3,
+            label: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Expanded(
+                  child: Text(
+                    widget.answer.description,
+                    style: Theme.of(context).textTheme.button,
+                  ),
                 ),
-                boxShadow: const <BoxShadow>[
-                  BoxShadow(blurRadius: 4, offset: Offset(.8,.8))
-                ],
-              ),
-              child: const Padding(
-                padding: EdgeInsets.all(3),
-                child: Icon(
-                  Icons.check,
-                  color: kDarkPrimaryContainer,
+                Icon(
+                  selected?.id == widget.answer.id
+                      ? Icons.check_circle
+                      : Icons.circle_outlined,
+                  size: 20,
+                  color: kPrimaryColor,
                 ),
+              ],
+            ),
+            style: ElevatedButton.styleFrom(
+              alignment: Alignment.centerLeft,
+              backgroundColor: kBoxBackgroundColor,
+              elevation: 2,
+              padding: const EdgeInsets.all(8),
+              shape: RoundedRectangleBorder(
+                side: const BorderSide(
+                  color: kBlueBackgroundColor,
+                  width: 2,
+                ),
+                borderRadius: BorderRadius.circular(8),
               ),
-            )
-        ],
+            ),
+            onPressed: () {
+              ref.read(answerStateProvider.notifier).state = widget.answer;
+            },
+          );
+        },
       ),
     );
   }
