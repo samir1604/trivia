@@ -75,6 +75,10 @@ class LevelsPage extends StatelessWidget {
                   },
                 ),
               ),
+              ElevatedButton(
+                child: Text('test'),
+                onPressed: () => context.go('/levels/winner'),
+              )
             ],
           ),
         ),

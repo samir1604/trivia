@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trivia/src/features/Widgets/utils_ui.dart';
 import 'package:trivia/src/theme/app_style.dart';
 
 /// Trivia home
@@ -27,23 +28,7 @@ class TriviaHome extends StatelessWidget {
             child: Container(
               height: 60,
               width: 60,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(255, 255, 255, 0),
-                    Color.fromRGBO(255, 255, 255, .5),
-                    Color.fromRGBO(255, 255, 255, 1),
-                  ],
-                  stops: [
-                    0,
-                    52,
-                    100,
-                  ],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                ),
-              ),
+              decoration: getCircleDecoration(),
             ),
           ),
           Positioned(
@@ -52,23 +37,7 @@ class TriviaHome extends StatelessWidget {
             child: Container(
               height: 65,
               width: 65,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(255, 255, 255, 0),
-                    Color.fromRGBO(255, 255, 255, .5),
-                    Color.fromRGBO(255, 255, 255, 1),
-                  ],
-                  stops: [
-                    0,
-                    52,
-                    100,
-                  ],
-                  begin: Alignment.bottomCenter,
-                  end: Alignment.topCenter,
-                ),
-              ),
+              decoration: getCircleDecoration(),
             ),
           ),
           Positioned(
@@ -78,23 +47,7 @@ class TriviaHome extends StatelessWidget {
             child: Container(
               height: 80,
               width: 80,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(255, 255, 255, 0),
-                    Color.fromRGBO(255, 255, 255, .5),
-                    Color.fromRGBO(255, 255, 255, 1),
-                  ],
-                  stops: [
-                    0,
-                    52,
-                    100,
-                  ],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                ),
-              ),
+              decoration: getCircleDecoration(),
             ),
           ),
           Positioned(
@@ -103,23 +56,7 @@ class TriviaHome extends StatelessWidget {
             child: Container(
               height: 50,
               width: 50,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(255, 255, 255, 0),
-                    Color.fromRGBO(255, 255, 255, .5),
-                    Color.fromRGBO(255, 255, 255, 1),
-                  ],
-                  stops: [
-                    0,
-                    52,
-                    100,
-                  ],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                ),
-              ),
+              decoration: getCircleDecoration(),
             ),
           )
         ],
