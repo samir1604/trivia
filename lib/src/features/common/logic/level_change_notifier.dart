@@ -18,7 +18,7 @@ class LevelChangeNotifier with ChangeNotifier {
     _refreshLevelState();
   }
 
-  final SharedPreferences _preferences;
+  final SharedPreferences? _preferences;
 
   late bool _levelOne;
   late bool _levelTwo;
@@ -39,19 +39,19 @@ class LevelChangeNotifier with ChangeNotifier {
     switch (level.value) {
       case 1:
         _levelOne = true;
-        _preferences.setBool(levelOneKey, _levelOne);
+        _preferences?.setBool(levelOneKey, _levelOne);
         break;
       case 2:
         _levelTwo = true;
-        _preferences.setBool(levelTwoKey, _levelTwo);
+        _preferences?.setBool(levelTwoKey, _levelTwo);
         break;
       case 3:
         _levelThree = true;
-        _preferences.setBool(levelThreeKey, _levelThree);
+        _preferences?.setBool(levelThreeKey, _levelThree);
         break;
       case 4:
         _levelFour = true;
-        _preferences.setBool(levelFourKey, _levelFour);
+        _preferences?.setBool(levelFourKey, _levelFour);
         break;
       default:
         throw Exception('Argument range exception');
@@ -59,11 +59,25 @@ class LevelChangeNotifier with ChangeNotifier {
     notifyListeners();
   }
 
+  /// Set to false all levels
+  void resetLevels() {
+    _levelOne = false;
+    _levelTwo = false;
+    _levelThree = false;
+    _levelFour = false;
+
+    _preferences?.setBool(levelOneKey, _levelOne);
+    _preferences?.setBool(levelTwoKey, _levelTwo);
+    _preferences?.setBool(levelThreeKey, _levelThree);
+    _preferences?.setBool(levelFourKey, _levelFour);
+    notifyListeners();
+  }
+
   void _refreshLevelState() {
-    _levelOne = _preferences.getBool(levelOneKey) ?? false;
-    _levelTwo = _preferences.getBool(levelTwoKey) ?? false;
-    _levelThree = _preferences.getBool(levelThreeKey) ?? false;
-    _levelFour = _preferences.getBool(levelFourKey) ?? false;
+    _levelOne = _preferences?.getBool(levelOneKey) ?? false;
+    _levelTwo = _preferences?.getBool(levelTwoKey) ?? false;
+    _levelThree = _preferences?.getBool(levelThreeKey) ?? false;
+    _levelFour = _preferences?.getBool(levelFourKey) ?? false;
     notifyListeners();
   }
 }

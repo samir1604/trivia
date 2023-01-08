@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quickalert/quickalert.dart';
+import 'package:trivia/src/core/level_enum.dart';
 import 'package:trivia/src/features/Widgets/frosted_glass.dart';
 import 'package:trivia/src/features/Widgets/trivia_timer.dart';
 import 'package:trivia/src/features/question/logic/answer_provider.dart';
@@ -16,11 +17,11 @@ class CurrentQuestion extends ConsumerStatefulWidget {
   /// Constructor
   const CurrentQuestion({
     super.key,
-    required this.jsonData,
+    required this.level,
   });
 
-  /// path json data
-  final String jsonData;
+  /// Level data
+  final Level level;
 
   @override
   ConsumerState createState() => _CurrentQuestionState();
@@ -34,7 +35,9 @@ class _CurrentQuestionState extends ConsumerState<CurrentQuestion> {
   Future<void> didChangeDependencies() async {
     await Future(() {
       if (init) {
-        ref.read(questionNotifierProvider.notifier).loadList(widget.jsonData);
+        ref
+            .read(questionNotifierProvider.notifier)
+            .loadList(widget.level.jsonData);
         init = false;
       }
     });
@@ -67,6 +70,7 @@ class _CurrentQuestionState extends ConsumerState<CurrentQuestion> {
     int? selectedId,
     required int answerId,
     required String correctAnswer,
+    required bool isLastQuestion,
   }) {
     timerKey.currentState!.cancelTimer();
 
@@ -76,9 +80,14 @@ class _CurrentQuestionState extends ConsumerState<CurrentQuestion> {
       callback: (isCorrect) {
         if (isCorrect) {
           Navigator.pop(context);
-          ref.read(answerStateProvider.notifier).state = null;
-          ref.read(questionNotifierProvider.notifier).getNext();
-          timerKey.currentState!.initTimer();
+
+          if (isLastQuestion) {
+            context.go('/levels/winner', extra: widget.level);
+          } else {
+            ref.read(answerStateProvider.notifier).state = null;
+            ref.read(questionNotifierProvider.notifier).getNext();
+            timerKey.currentState!.initTimer();
+          }
         } else {
           context.pop();
         }
@@ -121,8 +130,9 @@ class _CurrentQuestionState extends ConsumerState<CurrentQuestion> {
                     style: Theme.of(context).textTheme.headline4,
                     children: [
                       TextSpan(
-                          text: '/ ${data.length}',
-                          style: Theme.of(context).textTheme.headline6),
+                        text: '/ ${data.length}',
+                        style: Theme.of(context).textTheme.headline6,
+                      ),
                     ],
                   ),
                 ),
@@ -165,6 +175,7 @@ class _CurrentQuestionState extends ConsumerState<CurrentQuestion> {
                       selectedId: selected?.id,
                       answerId: correctAnswer.id,
                       correctAnswer: correctAnswer.description,
+                      isLastQuestion: data.position == (data.length - 1),
                     );
                   },
                   child: const Text('Verificar'),

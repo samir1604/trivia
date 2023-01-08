@@ -34,7 +34,7 @@ class QuestionPage extends StatelessWidget {
         ),
       ),
       body: CurrentQuestion(
-        jsonData: level.jsonData,
+        level: level,
       ),
     );
   }

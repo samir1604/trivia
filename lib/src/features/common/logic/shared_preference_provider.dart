@@ -6,7 +6,7 @@ import 'package:trivia/src/features/common/logic/level_change_notifier.dart';
 final preferenceProvider = ChangeNotifierProvider<LevelChangeNotifier>((
   ref,
 ) {
-  final pref = ref.watch(_sharedPreference).value!;
+  final pref = ref.watch(_sharedPreference).value;
   return LevelChangeNotifier(pref);
 });
 
